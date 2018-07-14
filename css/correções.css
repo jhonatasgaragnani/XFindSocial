@@ -1,0 +1,28 @@
+/* criado para fazer mudançasnos textos */
+#txt {
+    color:  #7f050a;
+}
+#logo {
+    background-color: #7f050a;
+    border-radius: 50%;
+}
+#bnv {
+    background-color: #fff;
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid #fff;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.panel-default {
+    border-top: 1px solid #fff;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#content {
+    border-radius: 300px;
+}
+.profile-card-icon {
+    margin 0;
+}

@@ -13,6 +13,8 @@
     Includes styling for all of the 3rd party libraries used with this module, such as Bootstrap, Font Awesome and others.
     TIP: Using bundles will improve performance by reducing the number of network requests the client needs to make when loading the page. -->
   <link href="css/vendor/all.css" rel="stylesheet">
+  <!-- sheet para pequenas correções, todas as páginas estão linkadas -->
+  <link rel="stylesheet" href="correções.css">
 
   <!-- Vendor CSS Standalone Libraries
         NOTE: Some of these may have been customized (for example, Bootstrap).
@@ -171,8 +173,8 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                 <img src="images/people/50/guy-5.jpg" width="35" alt="Bill" class="img-circle" /> Bill <span class="caret"></span>
               </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="messages.html">Messages</a></li>
+                <li><a href="profile.html">Perfil</a></li>
+                <li><a href="messages.html">Mensagens</a></li>
                 <li><a href="login.html">Logout</a></li>
               </ul>
             </li>
@@ -183,13 +185,13 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
             <div class="search-1">
               <div class="input-group">
                 <span class="input-group-addon"><i class="icon-search"></i></span>
-                <input type="text" class="form-control" placeholder="Search a friend">
+                <input type="text" class="form-control" placeholder="Pesquise aqui">
               </div>
             </div>
             <div class="pull-left visible-md visible-lg" data-toggle="tooltip" data-placement="bottom" title="A few Color Examples. Download includes CSS Files for all color examples & the tools to Generate any Color combination. This Color-Switcher is for previewing purposes only.">
               <ul class="skins">
 
-                <li><span data-file="app/app" data-skin="default" style="background: #16ae9f "></span></li>
+                <li><span data-file="app/app" data-skin="default" style="background: #7f050a "></span></li>
 
                 <li><span data-file="skin-orange" data-skin="orange" style="background: #e74c3c "></span></li>
 
@@ -218,19 +220,18 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
     <div class="sidebar left sidebar-size-2 sidebar-offset-0 sidebar-visible-desktop sidebar-visible-mobile sidebar-skin-dark" id="sidebar-menu" data-type="collapse">
       <div data-scrollable>
         <ul class="sidebar-menu">
-          <li><a href="../../../index.html"><i class="icon-paint-brush"></i> <span>Themes</span></a></li>
-          <li class="category">Navigation</li>
+          <li class="category">Navegação</li>
           <li class="hasSubmenu">
-            <a href="#timeline"><i class="icon-ship-wheel"></i> <span>Timeline</span></a>
+            <a href="#timeline"><i class="icon-ship-wheel"></i> <span>Linha do tempo</span></a>
             <ul id="timeline">
-              <li><a href="index.html"><i class="fa fa-circle-o"></i> <span>Blocks</span></a></li>
-              <li><a href="timeline-list.html"><i class="fa fa-circle-o"></i> <span>Listing</span></a></li>
+              <li><a href="index.html"><i class="fa fa-circle-o"></i> <span>Blocos</span></a></li>
+              <li><a href="timeline-list.html"><i class="fa fa-circle-o"></i> <span>Lista</span></a></li>
             </ul>
           </li>
-          <li class=""><a href="profile.html"><i class="icon-user-1"></i> <span>Profile</span></a></li>
-          <li class=""><a href="users.html"><i class="fa fa-group"></i> <span>Users</span></a></li>
-          <li class=" active"><a href="messages.html"><i class="icon-comment-fill-1"></i> <span>Messages</span></a></li>
-          <li><a href="login.html"><i class="icon-lock-fill"></i> <span>Login</span></a></li>
+          <li class=""><a href="profile.html"><i class="icon-user-1"></i> <span>Perfil</span></a></li>
+          <li class=""><a href="users.html"><i class="fa fa-group"></i> <span>Usuários</span></a></li>
+          <li class=" active"><a href="messages.html"><i class="icon-comment-fill-1"></i> <span>Mensagens</span></a></li>
+          <li><a href="login.html"><i class="icon-lock-fill"></i> <span>Logout</span></a></li>
           <li class="hasSubmenu">
             <a href="#components"><i class="icon-paint-brushes"></i> <span>UI Components</span></a>
             <ul id="components">
@@ -257,7 +258,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
             </ul>
           </li>
         </ul>
-        <h4 class="category border top">News Feeds</h4>
+        <h4 class="category border top">Novas Notificações</h4>
         <div class="sidebar-block">
           <ul class="sidebar-feed">
             <li class="media">
@@ -324,13 +325,13 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
             </li>
           </ul>
         </div>
-        <h4 class="category">Filter</h4>
+        <h4 class="category">Filtros</h4>
         <div class="sidebar-block">
           <ul>
-            <li><a href="#" class="sidebar-link"><span class="fa fa-fw fa-circle-o text-success"></span> Work Related</a></li>
-            <li><a href="#" class="sidebar-link"><span class="fa fa-fw fa-circle-o text-danger"></span> Very Important</a></li>
-            <li><a href="#" class="sidebar-link"><span class="fa fa-fw fa-circle-o text-info"></span> Friends &amp; Family</a></li>
-            <li><a href="#" class="sidebar-link"><span class="fa fa-fw fa-circle-o text-primary"></span> Other</a></li>
+            <li><a href="#" class="sidebar-link"><span class="fa fa-fw fa-circle-o text-success"></span> Relacionado ao trabalho</a></li>
+            <li><a href="#" class="sidebar-link"><span class="fa fa-fw fa-circle-o text-danger"></span> Muito importante</a></li>
+            <li><a href="#" class="sidebar-link"><span class="fa fa-fw fa-circle-o text-info"></span> Amigos e família</a></li>
+            <li><a href="#" class="sidebar-link"><span class="fa fa-fw fa-circle-o text-primary"></span> Outros</a></li>
           </ul>
         </div>
       </div>
@@ -708,11 +709,11 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                   <div class="input-group">
                     <div class="input-group-btn">
                       <a class="btn btn-primary" href="#">
-                        <i class="fa fa-envelope"></i> Send
+                        <i class="fa fa-envelope"></i> Enviar
                       </a>
                     </div>
                     <!-- /btn-group -->
-                    <input type="text" class="form-control share-text" placeholder="Write message..." />
+                    <input type="text" class="form-control share-text" placeholder="Escreva sua mensagem..." />
                   </div>
                   <!-- /input-group -->
                 </div>
@@ -834,7 +835,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
       theme: "social-1",
       skins: {
         "default": {
-          "primary-color": "#16ae9f"
+          "primary-color": "#7f050a"
         },
         "orange": {
           "primary-color": "#e74c3c"
