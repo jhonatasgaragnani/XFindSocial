@@ -17037,7 +17037,7 @@ ul.timeline-list .media-body.fixed {
   text-align: center;
   color: #888;
   font-weight: 500;
-  background: #fff;
+  background: rgba(255,255,255,0.1);
   height: 45px;
   line-height: 45px;
   display: block;
@@ -29800,4 +29800,11 @@ fieldset[disabled] .sidebar.sidebar-skin-white-brown .btn-default.active {
 }
 [data-pagination="true"][data-pagination-position*="BOTTOM"] + .map-overlay-top {
   top: 0;
+}
+
+/*My styles*/
+
+#logo{
+  width: 100px;
+  height: auto;
 }

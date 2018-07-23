@@ -14,8 +14,6 @@
     TIP: Using bundles will improve performance by reducing the number of network requests the client needs to make when loading the page. -->
   <link href="css/vendor/all.css" rel="stylesheet">
 
-  <!-- sheet para pequenas correções, todas as páginas estão linkadas -->
-  <link rel="stylesheet" href="correções.css">
   <!-- Vendor CSS Standalone Libraries
         NOTE: Some of these may have been customized (for example, Bootstrap).
         See: src/less/themes/{theme_name}/vendor/ directory -->
@@ -173,8 +171,8 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                 <img src="images/people/50/guy-5.jpg" width="35" alt="Bill" class="img-circle" /> Bill <span class="caret"></span>
               </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="profile.html">Perfil</a></li>
-                <li><a href="messages.html">Mensagens</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="messages.html">Messages</a></li>
                 <li><a href="login.html">Logout</a></li>
               </ul>
             </li>
@@ -185,13 +183,13 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
             <div class="search-1">
               <div class="input-group">
                 <span class="input-group-addon"><i class="icon-search"></i></span>
-                <input type="text" class="form-control" placeholder="Pesquise aqui">
+                <input type="text" class="form-control" placeholder="Search a friend">
               </div>
             </div>
             <div class="pull-left visible-md visible-lg" data-toggle="tooltip" data-placement="bottom" title="A few Color Examples. Download includes CSS Files for all color examples & the tools to Generate any Color combination. This Color-Switcher is for previewing purposes only.">
               <ul class="skins">
 
-                <li><span data-file="app/app" data-skin="default" style="background:#7f050a" ></span></li>
+                <li><span data-file="app/app" data-skin="default" style="background: #16ae9f "></span></li>
 
                 <li><span data-file="skin-orange" data-skin="orange" style="background: #e74c3c "></span></li>
 
@@ -220,19 +218,19 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
     <div class="sidebar left sidebar-size-2 sidebar-offset-0 sidebar-visible-desktop sidebar-visible-mobile sidebar-skin-dark" id="sidebar-menu" data-type="collapse">
       <div data-scrollable>
         <ul class="sidebar-menu">
-          <li><a href="blank.html"><i class="icon-paint-brush"></i> <span>Temas</span></a></li>
-          <li class="category">Navegação</li>
+          <li><a href="../../../index.html"><i class="icon-paint-brush"></i> <span>Themes</span></a></li>
+          <li class="category">Navigation</li>
           <li class="hasSubmenu">
-            <a href="#timeline"><i class="icon-ship-wheel"></i> <span>Linha do tempo</span></a>
+            <a href="#timeline"><i class="icon-ship-wheel"></i> <span>Timeline</span></a>
             <ul id="timeline">
-              <li><a href="index.html"><i class="fa fa-circle-o"></i> <span>Blocos</span></a></li>
-              <li><a href="timeline-list.html"><i class="fa fa-circle-o"></i> <span>Lista</span></a></li>
+              <li><a href="index.html"><i class="fa fa-circle-o"></i> <span>Blocks</span></a></li>
+              <li><a href="timeline-list.html"><i class="fa fa-circle-o"></i> <span>Listing</span></a></li>
             </ul>
           </li>
-          <li class=" active "><a href="profile.html"><i class="icon-user-1"></i> <span>Perfil</span></a></li>
-          <li class=""><a href="users.html"><i class="fa fa-group"></i> <span>Usuários</span></a></li>
-          <li class=""><a href="messages.html"><i class="icon-comment-fill-1"></i> <span>Mensagens</span></a></li>
-          <li><a href="login.html"><i class="icon-lock-fill"></i> <span>Logout</span></a></li>
+          <li class=" active "><a href="profile.html"><i class="icon-user-1"></i> <span>Profile</span></a></li>
+          <li class=""><a href="users.html"><i class="fa fa-group"></i> <span>Users</span></a></li>
+          <li class=""><a href="messages.html"><i class="icon-comment-fill-1"></i> <span>Messages</span></a></li>
+          <li><a href="login.html"><i class="icon-lock-fill"></i> <span>Login</span></a></li>
           <li class="hasSubmenu">
             <a href="#components"><i class="icon-paint-brushes"></i> <span>UI Components</span></a>
             <ul id="components">
@@ -329,10 +327,10 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
         <h4 class="category">Filter</h4>
         <div class="sidebar-block">
           <ul>
-            <li><a href="#" class="sidebar-link"><span class="fa fa-fw fa-circle-o text-success"></span>Relacionado ao trabalho</a></li>
-            <li><a href="#" class="sidebar-link"><span class="fa fa-fw fa-circle-o text-danger"></span>Muito importante</a></li>
-            <li><a href="#" class="sidebar-link"><span class="fa fa-fw fa-circle-o text-info"></span>Amigos e família</a></li>
-            <li><a href="#" class="sidebar-link"><span class="fa fa-fw fa-circle-o text-primary"></span>Outros</a></li>
+            <li><a href="#" class="sidebar-link"><span class="fa fa-fw fa-circle-o text-success"></span> Work Related</a></li>
+            <li><a href="#" class="sidebar-link"><span class="fa fa-fw fa-circle-o text-danger"></span> Very Important</a></li>
+            <li><a href="#" class="sidebar-link"><span class="fa fa-fw fa-circle-o text-info"></span> Friends &amp; Family</a></li>
+            <li><a href="#" class="sidebar-link"><span class="fa fa-fw fa-circle-o text-primary"></span> Other</a></li>
           </ul>
         </div>
       </div>
@@ -557,7 +555,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
               <img src="{{ user_image }}" width="25" class="img-circle" alt="people" />
             </div>
             <div class="media-body">
-              <span class="message">Obrigado ! s2 Ryan</span>
+              <span class="message">Thanks!</span>
             </div>
           </div>
         </div>
@@ -592,7 +590,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                     <div class="avatar">
                       <img src="images/people/110/guy-5.jpg" alt="" class="img-circle">
                       <h3>Adrian Demian</h3>
-                      <a href="#" class="btn btn-success">Seguindo <i class="fa fa-check-circle fa-fw"></i></a>
+                      <a href="#" class="btn btn-success">Following <i class="fa fa-check-circle fa-fw"></i></a>
                     </div>
                     <div class="profile-icons margin-none">
                       <span><i class="fa fa-users"></i> 372</span>
@@ -613,7 +611,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                   <!-- Contact -->
                   <div class="panel panel-default">
                     <div class="panel-heading">
-                      Contato
+                      Contact
                     </div>
                     <ul class="icon-list icon-list-block">
                       <li><i class="fa fa-envelope fa-fw"></i> <a href="#">contact@mosaicpro.biz</a></li>
@@ -627,16 +625,16 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                 <div class="panel panel-default share">
                   <div class="input-group">
                     <div class="input-group-btn">
-                      <a class="btn btn-primary" href="#"><i class="fa fa-envelope"></i> Enviar</a>
+                      <a class="btn btn-primary" href="#"><i class="fa fa-envelope"></i> Send</a>
                     </div>
-                    <input type="text" class="form-control share-text" placeholder="Escreva sua mensagem..." />
+                    <input type="text" class="form-control share-text" placeholder="Write message..." />
                   </div>
                 </div>
 
                 <div class="tabbable">
                   <ul class="nav nav-tabs">
-                    <li class="active"><a href="#home" data-toggle="tab"><i class="fa fa-fw fa-picture-o"></i> Fotos</a></li>
-                    <li class=""><a href="#profile" data-toggle="tab"><i class="fa fa-fw fa-folder"></i> Álbuns</a></li>
+                    <li class="active"><a href="#home" data-toggle="tab"><i class="fa fa-fw fa-picture-o"></i> Photos</a></li>
+                    <li class=""><a href="#profile" data-toggle="tab"><i class="fa fa-fw fa-folder"></i> Albums</a></li>
                   </ul>
                   <div class="tab-content">
                     <div class="tab-pane fade active in" id="home">
@@ -667,31 +665,31 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                     <div class="panel panel-default">
                       <div class="panel-heading panel-heading-gray">
                         <a href="#" class="btn btn-white btn-xs pull-right"><i class="fa fa-pencil"></i></a>
-                        <i class="fa fa-fw fa-info-circle"></i> Sobre
+                        <i class="fa fa-fw fa-info-circle"></i> About
                       </div>
                       <div class="panel-body">
                         <ul class="list-unstyled profile-about margin-none">
                           <li class="padding-v-5">
                             <div class="row">
-                              <div class="col-sm-4"><span class="text-muted">Aniversário</span></div>
+                              <div class="col-sm-4"><span class="text-muted">Date of Birth</span></div>
                               <div class="col-sm-8">12 January 1990</div>
                             </div>
                           </li>
                           <li class="padding-v-5">
                             <div class="row">
-                              <div class="col-sm-4"><span class="text-muted">Trabalho</span></div>
+                              <div class="col-sm-4"><span class="text-muted">Job</span></div>
                               <div class="col-sm-8">Specialist</div>
                             </div>
                           </li>
                           <li class="padding-v-5">
                             <div class="row">
-                              <div class="col-sm-4"><span class="text-muted">Sexo</span></div>
+                              <div class="col-sm-4"><span class="text-muted">Gender</span></div>
                               <div class="col-sm-8">Male</div>
                             </div>
                           </li>
                           <li class="padding-v-5">
                             <div class="row">
-                              <div class="col-sm-4"><span class="text-muted">Mora em</span></div>
+                              <div class="col-sm-4"><span class="text-muted">Lives in</span></div>
                               <div class="col-sm-8">Miami, FL, USA</div>
                             </div>
                           </li>
@@ -709,9 +707,9 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                     <div class="panel panel-default">
                       <div class="panel-heading panel-heading-gray">
                         <div class="pull-right">
-                          <a href="#" class="btn btn-primary btn-xs">Adicionar <i class="fa fa-plus"></i></a>
+                          <a href="#" class="btn btn-primary btn-xs">Add <i class="fa fa-plus"></i></a>
                         </div>
-                        <i class="icon-user-1"></i> Amigos
+                        <i class="icon-user-1"></i> Friends
                       </div>
                       <div class="panel-body">
                         <ul class="img-grid">
@@ -768,7 +766,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
 
                 <div class="panel panel-default">
                   <div class="panel-heading panel-heading-gray">
-                    <i class="fa fa-bookmark"></i> Favoritos
+                    <i class="fa fa-bookmark"></i> Bookmarks
                   </div>
                   <div class="panel-body">
                     <div class="row">
@@ -787,7 +785,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor impedit ipsum laborum maiores tempore veritatis....</p>
                             <div>
                               <div class="pull-right">
-                                <a href="#" class="btn btn-primary btn-xs">Comentar</a>
+                                <a href="#" class="btn btn-primary btn-xs">read</a>
                               </div>
 
                               <a href="#" class="text-muted"> <i class="fa fa-comments"></i> 6</a>
@@ -813,7 +811,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor impedit ipsum laborum maiores tempore veritatis....</p>
                             <div>
                               <div class="pull-right">
-                                <a href="#" class="btn btn-primary btn-xs">Comentar</a>
+                                <a href="#" class="btn btn-primary btn-xs">read</a>
                               </div>
                               <a href="#" class="text-muted"> <i class="fa fa-comments"></i> 6</a>
                             </div>
@@ -886,7 +884,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
       theme: "social-1",
       skins: {
         "default": {
-          "primary-color": "#7f050a"
+          "primary-color": "#16ae9f"
         },
         "orange": {
           "primary-color": "#e74c3c"

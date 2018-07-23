@@ -13,8 +13,6 @@
     Includes styling for all of the 3rd party libraries used with this module, such as Bootstrap, Font Awesome and others.
     TIP: Using bundles will improve performance by reducing the number of network requests the client needs to make when loading the page. -->
   <link href="css/vendor/all.css" rel="stylesheet">
-  <!-- sheet para pequenas correções, todas as páginas estão linkadas -->
-  <link rel="stylesheet" href="correções.css">
 
   <!-- Vendor CSS Standalone Libraries
         NOTE: Some of these may have been customized (for example, Bootstrap).
@@ -170,11 +168,11 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
             <!-- User -->
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                <img src="images/people/50/guy-5.jpg" width="35" alt="Bill" class="img-circle" /> Você <span class="caret"></span>
+                <img src="images/people/50/guy-5.jpg" width="35" alt="Bill" class="img-circle" /> Bill <span class="caret"></span>
               </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="profile.html">Perfil</a></li>
-                <li><a href="messages.html">Mensagens</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="messages.html">Messages</a></li>
                 <li><a href="login.html">Logout</a></li>
               </ul>
             </li>
@@ -185,13 +183,13 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
             <div class="search-1">
               <div class="input-group">
                 <span class="input-group-addon"><i class="icon-search"></i></span>
-                <input type="text" class="form-control" placeholder="Pesquise aqui">
+                <input type="text" class="form-control" placeholder="Search a friend">
               </div>
             </div>
             <div class="pull-left visible-md visible-lg" data-toggle="tooltip" data-placement="bottom" title="A few Color Examples. Download includes CSS Files for all color examples & the tools to Generate any Color combination. This Color-Switcher is for previewing purposes only.">
               <ul class="skins">
 
-                <li><span data-file="app/app" data-skin="default" style="background: #7f050a "></span></li>
+                <li><span data-file="app/app" data-skin="default" style="background: #16ae9f "></span></li>
 
                 <li><span data-file="skin-orange" data-skin="orange" style="background: #e74c3c "></span></li>
 
@@ -220,18 +218,19 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
     <div class="sidebar left sidebar-size-2 sidebar-offset-0 sidebar-visible-desktop sidebar-visible-mobile sidebar-skin-dark" id="sidebar-menu" data-type="collapse">
       <div data-scrollable>
         <ul class="sidebar-menu">
-          <li class="category">Navegação</li>
+          <li><a href="../../../index.html"><i class="icon-paint-brush"></i> <span>Themes</span></a></li>
+          <li class="category">Navigation</li>
           <li class="hasSubmenu open">
-            <a href="#timeline"><i class="icon-ship-wheel"></i> <span>Linha do tempo</span></a>
+            <a href="#timeline"><i class="icon-ship-wheel"></i> <span>Timeline</span></a>
             <ul class="in" id="timeline">
-              <li><a href="index.html"><i class="fa fa-circle-o"></i> <span>Blocos</span></a></li>
-              <li class="active"><a href="timeline-list.html"><i class="fa fa-circle-o"></i> <span>Listas</span></a></li>
+              <li><a href="index.html"><i class="fa fa-circle-o"></i> <span>Blocks</span></a></li>
+              <li class="active"><a href="timeline-list.html"><i class="fa fa-circle-o"></i> <span>Listing</span></a></li>
             </ul>
           </li>
-          <li class=""><a href="profile.html"><i class="icon-user-1"></i> <span>Perfil</span></a></li>
-          <li class=""><a href="users.html"><i class="fa fa-group"></i> <span>Usuários</span></a></li>
-          <li class=""><a href="messages.html"><i class="icon-comment-fill-1"></i> <span>Mensagens</span></a></li>
-          <li><a href="login.html"><i class="icon-lock-fill"></i> <span>Logout</span></a></li>
+          <li class=""><a href="profile.html"><i class="icon-user-1"></i> <span>Profile</span></a></li>
+          <li class=""><a href="users.html"><i class="fa fa-group"></i> <span>Users</span></a></li>
+          <li class=""><a href="messages.html"><i class="icon-comment-fill-1"></i> <span>Messages</span></a></li>
+          <li><a href="login.html"><i class="icon-lock-fill"></i> <span>Login</span></a></li>
           <li class="hasSubmenu">
             <a href="#components"><i class="icon-paint-brushes"></i> <span>UI Components</span></a>
             <ul id="components">
@@ -586,11 +585,11 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
             <div class="cover overlay cover-menu cover-image-full height-300-lg">
 
               <ul class="cover-nav">
-                <li class="active"><a href="#"><i class="fa fa-clock-o"></i> <span>Linha do tempo</span></a></li>
-                <li><a href="#"><i class="fa fa-user"></i> <span>Sobre</span></a></li>
-                <li><a href="#"><i class="fa fa-camera"></i> <span>Fotos</span> <small>(102)</small></a></li>
-                <li><a href="#"><i class="fa fa-group"></i><span> Amigos </span><small>(19)</small></a></li>
-                <li><a href="#"><i class="fa fa-envelope"></i> <span>Mensagens</span> <small>(2)</small></a></li>
+                <li class="active"><a href="#"><i class="fa fa-clock-o"></i> <span>Timeline</span></a></li>
+                <li><a href="#"><i class="fa fa-user"></i> <span>About</span></a></li>
+                <li><a href="#"><i class="fa fa-camera"></i> <span>Photos</span> <small>(102)</small></a></li>
+                <li><a href="#"><i class="fa fa-group"></i><span> Friends </span><small>(19)</small></a></li>
+                <li><a href="#"><i class="fa fa-envelope"></i> <span>Messages</span> <small>(2)</small></a></li>
               </ul>
 
               <img src="images/profile-cover.jpg" alt="cover" />
@@ -617,10 +616,10 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                           <div class="col-md-10 col-lg-8">
                             <div class="panel panel-default share clearfix-xs">
                               <div class="panel-heading panel-heading-gray title">
-                                Novidades
+                                What&acute;s new
                               </div>
                               <div class="panel-body">
-                                <textarea name="status" class="form-control share-text" rows="3" placeholder="No que você está pensando ? Compartilhe conosco !"></textarea>
+                                <textarea name="status" class="form-control share-text" rows="3" placeholder="Share your status..."></textarea>
                               </div>
                               <div class="panel-footer share-buttons">
                                 <a href="#"><i class="fa fa-map-marker"></i></a>
@@ -1569,12 +1568,12 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
               </div>
               <div class="col-md-3">
                 <ul class="nav timeline-months">
-                  <li class="active"><a href="#october"><i class="fa fa-calendar fa-fw"></i>Outubro</a></li>
-                  <li><a href="#september"><i class="fa fa-calendar fa-fw"></i>Setembro</a></li>
-                  <li><a href="#august"><i class="fa fa-calendar fa-fw"></i>Agosto</a></li>
-                  <li><a href="#july"><i class="fa fa-calendar fa-fw"></i>Julho</a></li>
-                  <li><a href="#june"><i class="fa fa-calendar fa-fw"></i>Junho</a></li>
-                  <li><a href="#may"><i class="fa fa-calendar fa-fw"></i>Maio</a></li>
+                  <li class="active"><a href="#october"><i class="fa fa-calendar fa-fw"></i>October</a></li>
+                  <li><a href="#september"><i class="fa fa-calendar fa-fw"></i>September</a></li>
+                  <li><a href="#august"><i class="fa fa-calendar fa-fw"></i>August</a></li>
+                  <li><a href="#july"><i class="fa fa-calendar fa-fw"></i>July</a></li>
+                  <li><a href="#june"><i class="fa fa-calendar fa-fw"></i>June</a></li>
+                  <li><a href="#may"><i class="fa fa-calendar fa-fw"></i>May</a></li>
                 </ul>
               </div>
             </div>
@@ -1618,7 +1617,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
       theme: "social-1",
       skins: {
         "default": {
-          "primary-color": "#7f050a"
+          "primary-color": "#16ae9f"
         },
         "orange": {
           "primary-color": "#e74c3c"
