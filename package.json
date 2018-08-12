@@ -10,16 +10,25 @@
     "type": "git",
     "url": "git+https://github.com/jhonatasgaragnani/XFindSocial.git"
   },
-  "author": "",
+  "author": "Ryan, Jhonatas Garagnani",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jhonatasgaragnani/XFindSocial/issues"
   },
   "homepage": "https://github.com/jhonatasgaragnani/XFindSocial#readme",
   "dependencies": {
+    "bcrypt": "^3.0.0",
     "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
+    "email-templates": "^4.0.3",
     "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.7",
     "mysql": "^2.16.0",
+    "nodemailer": "^4.6.7",
     "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
   }
 }
