@@ -37593,6 +37593,15 @@ fieldset[disabled] .sidebar.sidebar-skin-white-brown .btn-default.active {
   background: #ededed;
   color: #6e7882;
 }
+.cover.profile {
+  border-width: 0 0 1px 0;
+}
+.cover.profile .wrapper .friends {
+  padding-left: 1px;
+}
+.cover.profile .wrapper .friends li a {
+  padding: 0;
+}
 #filter {
   margin-bottom: 15px;
   padding-bottom: 15px;

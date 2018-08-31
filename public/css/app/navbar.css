@@ -384,7 +384,7 @@
   height: 1px;
   left: 0;
   right: 0;
-  background: #1c7d74;
+  background: #7f0500;
 }
 @media (min-width: 768px) {
   .navbar-toggle-demo > .container .navbar-brand,
@@ -424,11 +424,11 @@
   color: #212121;
 }
 .navbar-default .toggle.active {
-  background: #7f050a;
+  background: #7f050b;
   color: #fff;
 }
 .navbar-primary .toggle {
-  background: #7f050a;
+  background: #7f050b;
   color: #fff;
 }
 .navbar-primary .toggle.active {
@@ -496,7 +496,7 @@
 .navbar-nav .dropdown-menu > li.active > a,
 .navbar-nav .dropdown-menu > li a:hover {
   background: #f5f7f7;
-  color: #7f050a;
+  color: #7f050b;
 }
 .navbar-nav > li.notifications.files img {
   width: 35px !important;
@@ -817,7 +817,7 @@
 }
 .navbar-default .navbar-nav > .nav-item-primary > a:hover,
 .navbar-default .navbar-nav > .nav-item-primary > a:focus {
-  background-color: #7f050a;
+  background-color: #7f050b;
   color: #ffffff;
 }
 .navbar-default .navbar-form .checkbox {
@@ -850,7 +850,7 @@
   background-color: #7f050a;
   border-color: #7f050a;
 }
-@media (min-width: 768px) {#7f050a
+@media (min-width: 768px) {
   .navbar-primary .navbar-brand {
     border-right-color: #2bbbad;
   }
@@ -870,7 +870,7 @@
   color: #ffffff;
 }
 .navbar-primary .navbar-brand.navbar-brand-primary {
-  background-color: #7f050a;
+  background-color: #7f050b;
 }
 .navbar-primary .navbar-text {
   color: #ffffff;
@@ -889,10 +889,10 @@
 .navbar-primary .navbar-nav > .active > a:focus,
 .navbar-primary .navbar-nav .open > a:hover,
 .navbar-primary .navbar-nav > .active > a:hover {
-  background: #22958b;
+  background: #7f050b;
 }
 .navbar-primary .navbar-nav > .nav-item-primary > a {
-  background-color: #22958b;
+  background-color: #7f050b;
   color: #fff;
 }
 .navbar-primary .navbar-nav > .nav-item-primary > a:hover,
@@ -906,11 +906,11 @@
   }
 }
 .navbar-primary .navbar-toggle {
-  background-color: #7f050a;
+  background-color: #7f050b;
 }
 .navbar-primary .navbar-toggle:hover,
 .navbar-primary .navbar-toggle:focus {
-  background-color: #1e857b;
+  background-color: #7f0500;
 }
 .navbar-primary .navbar-toggle:hover .icon-bar,
 .navbar-primary .navbar-toggle:focus .icon-bar {
@@ -927,7 +927,7 @@
   background: #7f050b;
 }
 .navbar-primary .navbar-form .form-control {
-  background: #7f050a;
+  background: #7f050b;
   border-color: #7f050b;
   color: #ffffff;
 }
@@ -942,8 +942,8 @@
   color: #ffffff;
 }
 .navbar-primary .input-group-addon {
-  background-color: #1e857b;
-  border-color: #1e857b;
+  background-color: #7f050b;
+  border-color: #7f050b;
   color: #ffffff;
 }
 .navbar-primary .navbar-form .checkbox {
@@ -960,7 +960,7 @@
 .navbar-primary .btn-default {
   color: #ffffff;
   background-color: #7f050a;
-  border-color: #1e857b;
+  border-color: #7f050a;
 }
 .navbar-primary .btn-default:hover,
 .navbar-primary .btn-default:focus,
@@ -970,7 +970,7 @@
 .open > .dropdown-toggle.navbar-primary .btn-default {
   color: #ffffff;
   background-color: #1c7d74;
-  border-color: #13534d;
+  border-color: #7f0500;
 }
 .navbar-primary .btn-default:active,
 .navbar-primary .btn-default.active,
@@ -996,7 +996,7 @@ fieldset[disabled] .navbar-primary .btn-default:active,
 .navbar-primary .btn-default[disabled].active,
 fieldset[disabled] .navbar-primary .btn-default.active {
   background-color: #7f050a;
-  border-color: #1e857b;
+  border-color: #7f0500;
 }
 .navbar-primary .btn-default .badge {
   color: #7f050a;
@@ -1005,7 +1005,7 @@ fieldset[disabled] .navbar-primary .btn-default.active {
 .navbar-primary .btn-primary {
   color: #ffffff;
   background-color: #7f050b;
-  border-color: #1e857b;
+  border-color: #7f0500;
 }
 .navbar-primary .btn-primary:hover,
 .navbar-primary .btn-primary:focus,
@@ -1015,7 +1015,7 @@ fieldset[disabled] .navbar-primary .btn-default.active {
 .open > .dropdown-toggle.navbar-primary .btn-primary {
   color: #ffffff;
   background-color: #196c64;
-  border-color: #13534d;
+  border-color: #7f0500;
 }
 .navbar-primary .btn-primary:active,
 .navbar-primary .btn-primary.active,
@@ -1040,23 +1040,23 @@ fieldset[disabled] .navbar-primary .btn-primary:active,
 .navbar-primary .btn-primary.disabled.active,
 .navbar-primary .btn-primary[disabled].active,
 fieldset[disabled] .navbar-primary .btn-primary.active {
-  background-color: #22958b;
-  border-color: #1e857b;
+  background-color: #7f050b;
+  border-color: #7f0500;
 }
 .navbar-primary .btn-primary .badge {
-  color: #22958b;
+  color: #7f050b;
   background-color: #ffffff;
 }
 .navbar-primary .bootstrap-switch {
-  border-color: #208d83;
+  border-color: #7f050b;
   box-shadow: none;
 }
 .navbar-primary .bootstrap-switch .bootstrap-switch-label {
-  background-color: #208d83;
+  background-color: #7f050b;
 }
 .navbar-primary .slider .slider-track {
-  border: 1px solid #1e857b;
-  background: #219187;
+  border: 1px solid #7f050b;
+  background: #7f050b;
 }
 .navbar-skin-cover {
   border-width: 0;

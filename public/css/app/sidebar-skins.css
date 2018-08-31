@@ -22,7 +22,7 @@
   color: #ffffff;
 }
 .sidebar.sidebar-skin-dark .sidebar-brand {
-  background-color: #7f050a;
+  background-color: #26a69a;
   color: #ffffff;
 }
 .sidebar.sidebar-skin-dark .sidebar-brand:hover {
@@ -49,8 +49,8 @@
 }
 .sidebar.sidebar-skin-dark .btn-default {
   color: #ffffff;
-  background-color: #7f050a;
-  border-color: #7f050a;
+  background-color: #26a69a;
+  border-color: #26a69a;
 }
 .sidebar.sidebar-skin-dark .btn-default:hover,
 .sidebar.sidebar-skin-dark .btn-default:focus,
@@ -132,7 +132,7 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
   color: #fff;
 }
 .sidebar.sidebar-skin-dark .list-group-menu.primary .list-group-item.active {
-  background: #1e857b;
+  background: #7f0500;
 }
 .sidebar.sidebar-skin-dark .sidebar-menu {
   border-color: #2e2e2e;
@@ -195,7 +195,7 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
   background: #141414;
 }
 .sidebar.sidebar-skin-dark .category {
-  color: #7f050a;
+  color: #26a69a;
 }
 .sidebar.sidebar-skin-dark hr {
   border-color: #2e2e2e;
@@ -297,7 +297,7 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
   color: inherit;
 }
 .sidebar.sidebar-skin-white .sidebar-brand {
-  background-color: #7f050a;
+  background-color: #26a69a;
   color: #ffffff;
 }
 .sidebar.sidebar-skin-white .sidebar-brand:hover {
@@ -343,7 +343,7 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
   color: #2c2c2c;
 }
 .sidebar.sidebar-skin-white .list-group-menu .list-group-item.active {
-  background: #7f050a;
+  background: #26a69a;
 }
 .sidebar.sidebar-skin-white .list-group-menu .list-group-item.active a,
 .sidebar.sidebar-skin-white .list-group-menu .list-group-item.active .badge {
@@ -360,7 +360,7 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
   color: #fff;
 }
 .sidebar.sidebar-skin-white .list-group-menu.primary .list-group-item.active {
-  background: #1e857b;
+  background: #7f0500;
 }
 .sidebar.sidebar-skin-white .sidebar-menu {
   border-color: #ebebeb;
@@ -440,7 +440,7 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
   background: #f2f2f2;
 }
 .sidebar.sidebar-skin-white .category {
-  color: #7f050a;
+  color: #26a69a;
 }
 .sidebar.sidebar-skin-white hr {
   border-color: #ebebeb;
@@ -457,7 +457,7 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
   background: #f2f2f2;
 }
 .sidebar.sidebar-skin-white .sidebar-feed li:hover .media-left i {
-  color: #7f050a;
+  color: #7f050b;
 }
 .sidebar.sidebar-skin-white .sidebar-feed li .media-body a {
   color: #212121;
@@ -488,7 +488,7 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
 .sidebar.sidebar-skin-white .datepicker table thead tr th.datepicker-switch:hover,
 .sidebar.sidebar-skin-white .datepicker table thead tr th.next:hover,
 .sidebar.sidebar-skin-white .datepicker table thead tr th.prev:hover {
-  background: #1c7d74;
+  background: #7f0500;
 }
 .sidebar.sidebar-skin-white .datepicker table tr td.day,
 .sidebar.sidebar-skin-white .datepicker table tr td .month,

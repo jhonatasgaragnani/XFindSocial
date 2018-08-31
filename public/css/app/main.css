@@ -1,3 +1,12 @@
+.cover.profile {
+  border-width: 0 0 1px 0;
+}
+.cover.profile .wrapper .friends {
+  padding-left: 1px;
+}
+.cover.profile .wrapper .friends li a {
+  padding: 0;
+}
 #filter {
   margin-bottom: 15px;
   padding-bottom: 15px;
