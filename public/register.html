@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="hide-sidebar ls-bottom-footer" lang="en">
+<html class="hide-sidebar ls-bottom-footer" lang="pt-br">
 
 <head>
   <meta charset="utf-8">
@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>ThemeKit</title>
+  <title>XFind</title>
 
   <!-- Vendor CSS BUNDLE
     Includes styling for all of the 3rd party libraries used with this module, such as Bootstrap, Font Awesome and others.
@@ -88,37 +88,39 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
 
 <body class="login">
 
-  <div class="page-section">
+  <div class="col-md-8 col-lg-offset-2 page-section">
     <div class="row">
       <div class="col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2">
 
-        <h4 class="page-section-heading text-white">Basic example</h4>
+        <h4 class="page-section-heading text-white text-h1">Cadastre-se!</h4>
         <div class="panel panel-default">
           <div class="panel-body">
             <form>
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group form-control-default">
-                    <label for="exampleInputFirstName">First name</label>
-                    <input type="email" class="form-control" id="exampleInputFirstName" placeholder="Your first name">
+                    <label for="exampleInputFirstName">Primeiro nome</label>
+                    <input type="email" class="form-control" id="exampleInputFirstName" placeholder="Seu primeiro nome">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group form-control-default">
-                    <label for="exampleInputLastName">Last name</label>
-                    <input type="email" class="form-control" id="exampleInputLastName" placeholder="Your last name">
+                    <label for="exampleInputLastName">Último nome</label>
+                    <input type="email" class="form-control" id="exampleInputLastName" placeholder="Seu último nome">
                   </div>
                 </div>
               </div>
               <div class="form-group form-control-default required">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                <label for="exampleInputEmail1">Endereço de Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Coloque seu email">
               </div>
               <div class="form-group form-control-default required">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <label for="exampleInputPassword1">Senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <a href="index.html" class="btn btn-primary">Registre! <i class="fa fa-fw fa-sign-in"></i></a>
+              <span class="text-blue-A100">ou</span>
+              <a href="login.html" class="btn btn-primary">Login <i class="fa fa-fw fa-unlock-alt"></i></a>
             </form>
           </div>
         </div>
@@ -126,8 +128,8 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
       </div>
     </div>
   <!-- Footer -->
-  <footer class="footer">
-    <strong>ThemeKit</strong> v4.0.0 &copy; Copyright 2015
+  <footer class="footer bg-transparent text-white">
+    <strong>XFind</strong> &copy; Copyright 2018
   </footer>
   <!-- // Footer -->
   <!-- Inline Script for colors and config objects; used by various external scripts; -->
@@ -178,34 +180,34 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
   <script src="js/vendor/all.js"></script>
 
   <!-- Vendor Scripts Standalone Libraries -->
-  <!-- <script src="js/vendor/core/all.js"></script> -->
-  <!-- <script src="js/vendor/core/jquery.js"></script> -->
-  <!-- <script src="js/vendor/core/bootstrap.js"></script> -->
-  <!-- <script src="js/vendor/core/breakpoints.js"></script> -->
-  <!-- <script src="js/vendor/core/jquery.nicescroll.js"></script> -->
-  <!-- <script src="js/vendor/core/isotope.pkgd.js"></script> -->
-  <!-- <script src="js/vendor/core/packery-mode.pkgd.js"></script> -->
-  <!-- <script src="js/vendor/core/jquery.grid-a-licious.js"></script> -->
-  <!-- <script src="js/vendor/core/jquery.cookie.js"></script> -->
-  <!-- <script src="js/vendor/core/jquery-ui.custom.js"></script> -->
-  <!-- <script src="js/vendor/core/jquery.hotkeys.js"></script> -->
-  <!-- <script src="js/vendor/core/handlebars.js"></script> -->
-  <!-- <script src="js/vendor/core/jquery.hotkeys.js"></script> -->
-  <!-- <script src="js/vendor/core/load_image.js"></script> -->
-  <!-- <script src="js/vendor/core/jquery.debouncedresize.js"></script> -->
-  <!-- <script src="js/vendor/tables/all.js"></script> -->
-  <!-- <script src="js/vendor/forms/all.js"></script> -->
-  <!-- <script src="js/vendor/media/all.js"></script> -->
-  <!-- <script src="js/vendor/player/all.js"></script> -->
-  <!-- <script src="js/vendor/charts/all.js"></script> -->
-  <!-- <script src="js/vendor/charts/flot/all.js"></script> -->
-  <!-- <script src="js/vendor/charts/easy-pie/jquery.easypiechart.js"></script> -->
-  <!-- <script src="js/vendor/charts/morris/all.js"></script> -->
-  <!-- <script src="js/vendor/charts/sparkline/all.js"></script> -->
-  <!-- <script src="js/vendor/maps/vector/all.js"></script> -->
-  <!-- <script src="js/vendor/tree/jquery.fancytree-all.js"></script> -->
-  <!-- <script src="js/vendor/nestable/jquery.nestable.js"></script> -->
-  <!-- <script src="js/vendor/angular/all.js"></script> -->
+  <script src="js/vendor/core/all.js"></script>
+  <script src="js/vendor/core/jquery.js"></script>
+  <script src="js/vendor/core/bootstrap.js"></script>
+  <script src="js/vendor/core/breakpoints.js"></script>
+  <script src="js/vendor/core/jquery.nicescroll.js"></script>
+  <script src="js/vendor/core/isotope.pkgd.js"></script>
+  <script src="js/vendor/core/packery-mode.pkgd.js"></script>
+  <script src="js/vendor/core/jquery.grid-a-licious.js"></script>
+  <script src="js/vendor/core/jquery.cookie.js"></script>
+  <script src="js/vendor/core/jquery-ui.custom.js"></script>
+  <script src="js/vendor/core/jquery.hotkeys.js"></script>
+  <script src="js/vendor/core/handlebars.js"></script>
+  <script src="js/vendor/core/jquery.hotkeys.js"></script>
+  <script src="js/vendor/core/load_image.js"></script>
+  <script src="js/vendor/core/jquery.debouncedresize.js"></script>
+  <script src="js/vendor/tables/all.js"></script>
+  <script src="js/vendor/forms/all.js"></script>
+  <script src="js/vendor/media/all.js"></script>
+  <script src="js/vendor/player/all.js"></script>
+  <script src="js/vendor/charts/all.js"></script>
+  <script src="js/vendor/charts/flot/all.js"></script>
+  <script src="js/vendor/charts/easy-pie/jquery.easypiechart.js"></script>
+  <script src="js/vendor/charts/morris/all.js"></script>
+  <script src="js/vendor/charts/sparkline/all.js"></script>
+  <script src="js/vendor/maps/vector/all.js"></script>
+  <script src="js/vendor/tree/jquery.fancytree-all.js"></script>
+  <script src="js/vendor/nestable/jquery.nestable.js"></script>
+  <script src="js/vendor/angular/all.js"></script>
 
   <!-- App Scripts Bundle
     Includes Custom Application JavaScript used for the current theme/module;
@@ -217,26 +219,26 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
     Some of the standalone modules may have not been used with the current theme/module
     but ALL the modules are 100% compatible -->
 
-  <!-- <script src="js/app/essentials.js"></script> -->
-  <!-- <script src="js/app/layout.js"></script> -->
-  <!-- <script src="js/app/sidebar.js"></script> -->
-  <!-- <script src="js/app/media.js"></script> -->
-  <!-- <script src="js/app/player.js"></script> -->
-  <!-- <script src="js/app/timeline.js"></script> -->
-  <!-- <script src="js/app/chat.js"></script> -->
-  <!-- <script src="js/app/maps.js"></script> -->
-  <!-- <script src="js/app/charts/all.js"></script> -->
-  <!-- <script src="js/app/charts/flot.js"></script> -->
-  <!-- <script src="js/app/charts/easy-pie.js"></script> -->
-  <!-- <script src="js/app/charts/morris.js"></script> -->
-  <!-- <script src="js/app/charts/sparkline.js"></script> -->
+  <script src="js/app/essentials.js"></script>
+  <script src="js/app/layout.js"></script>
+  <script src="js/app/sidebar.js"></script>
+  <script src="js/app/media.js"></script>
+  <script src="js/app/player.js"></script>
+  <script src="js/app/timeline.js"></script>
+  <script src="js/app/chat.js"></script>
+  <script src="js/app/maps.js"></script>
+  <script src="js/app/charts/all.js"></script>
+  <script src="js/app/charts/flot.js"></script>
+  <script src="js/app/charts/easy-pie.js"></script>
+  <script src="js/app/charts/morris.js"></script>
+  <script src="js/app/charts/sparkline.js"></script>
 
   <!-- App Scripts CORE [social-2]:
         Includes the custom JavaScript for this theme/module;
         The file has to be loaded in addition to the UI modules above;
         app.js already includes main.js so this should be loaded
         ONLY when using the standalone modules; -->
-  <!-- <script src="js/app/main.js"></script> -->
+  <script src="js/app/main.js"></script>
 
 </body>
 

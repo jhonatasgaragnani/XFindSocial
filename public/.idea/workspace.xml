@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f64fc42-0eb6-4b99-b868-f23ab303b5ad" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/lock-1.jpg" afterPath="$PROJECT_DIR$/images/lock-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.html" afterPath="$PROJECT_DIR$/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-private-messages.html" afterPath="$PROJECT_DIR$/user-private-messages.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-private-profile.html" afterPath="$PROJECT_DIR$/user-private-profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-private-timeline.html" afterPath="$PROJECT_DIR$/user-private-timeline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-private-users.html" afterPath="$PROJECT_DIR$/user-private-users.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-public-album.html" afterPath="$PROJECT_DIR$/user-public-album.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-public-profile.html" afterPath="$PROJECT_DIR$/user-public-profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-public-users.html" afterPath="$PROJECT_DIR$/user-public-users.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,8 +38,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="1660" column="40" lean-forward="true" selection-start-line="1660" selection-start-column="40" selection-end-line="1660" selection-end-column="40" />
+            <state relative-caret-position="138">
+              <caret line="1546" column="25" lean-forward="false" selection-start-line="1546" selection-start-column="25" selection-end-line="1546" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -40,32 +47,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user-public-album.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user-public-album.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user-public-album.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="76" column="49" lean-forward="true" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="102" column="12" lean-forward="false" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="94" column="50" lean-forward="false" selection-start-line="94" selection-start-column="50" selection-end-line="94" selection-end-column="50" />
-              <folding />
+            <state relative-caret-position="5939">
+              <caret line="600" column="50" lean-forward="false" selection-start-line="600" selection-start-column="50" selection-end-line="600" selection-end-column="50" />
+              <folding>
+                <element signature="e#25816#25822#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,16 +96,16 @@
         <option value="$PROJECT_DIR$/essential-buttons.html" />
         <option value="$PROJECT_DIR$/essential-forms.html" />
         <option value="$PROJECT_DIR$/essential-icons.html" />
-        <option value="$PROJECT_DIR$/user-private-messages.html" />
-        <option value="$PROJECT_DIR$/user-private-profile.html" />
-        <option value="$PROJECT_DIR$/user-private-timeline.html" />
-        <option value="$PROJECT_DIR$/user-private-users.html" />
-        <option value="$PROJECT_DIR$/user-public-album.html" />
-        <option value="$PROJECT_DIR$/user-public-profile.html" />
-        <option value="$PROJECT_DIR$/user-public-users.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/register.html" />
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/user-public-album.html" />
+        <option value="$PROJECT_DIR$/user-public-users.html" />
+        <option value="$PROJECT_DIR$/user-public-profile.html" />
+        <option value="$PROJECT_DIR$/user-private-users.html" />
+        <option value="$PROJECT_DIR$/user-private-timeline.html" />
+        <option value="$PROJECT_DIR$/user-private-profile.html" />
+        <option value="$PROJECT_DIR$/user-private-messages.html" />
       </list>
     </option>
   </component>
@@ -207,12 +196,12 @@
       <workItem from="1535388419429" duration="74000" />
       <workItem from="1535408600917" duration="4850000" />
       <workItem from="1535476001007" duration="437000" />
-      <workItem from="1535476500914" duration="15528000" />
+      <workItem from="1535476500914" duration="25510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30441000" />
+    <option name="totallyTimeSpent" value="40423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -529,54 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-private-messages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="76" column="50" lean-forward="true" selection-start-line="76" selection-start-column="50" selection-end-line="76" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-private-profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="76" column="50" lean-forward="true" selection-start-line="76" selection-start-column="50" selection-end-line="76" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-private-timeline.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="76" column="50" lean-forward="true" selection-start-line="76" selection-start-column="50" selection-end-line="76" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-private-users.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="76" column="50" lean-forward="true" selection-start-line="76" selection-start-column="50" selection-end-line="76" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-public-profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="76" column="50" lean-forward="true" selection-start-line="76" selection-start-column="50" selection-end-line="76" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-public-users.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="76" column="50" lean-forward="true" selection-start-line="76" selection-start-column="50" selection-end-line="76" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/essential-forms.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -593,10 +534,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/user-public-users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="900" column="50" lean-forward="false" selection-start-line="900" selection-start-column="50" selection-end-line="900" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-public-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="819" column="50" lean-forward="false" selection-start-line="819" selection-start-column="50" selection-end-line="819" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-private-users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="773" column="50" lean-forward="false" selection-start-line="773" selection-start-column="50" selection-end-line="773" selection-end-column="50" />
+          <folding>
+            <element signature="e#36436#36442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-private-timeline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="1466" column="50" lean-forward="false" selection-start-line="1466" selection-start-column="50" selection-end-line="1466" selection-end-column="50" />
+          <folding>
+            <element signature="e#87615#87621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-private-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="682" column="29" lean-forward="false" selection-start-line="682" selection-start-column="29" selection-end-line="682" selection-end-column="29" />
+          <folding>
+            <element signature="e#32888#32894#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-private-messages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="684" column="50" lean-forward="false" selection-start-line="684" selection-start-column="50" selection-end-line="684" selection-end-column="50" />
+          <folding>
+            <element signature="e#31433#31439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="94" column="22" lean-forward="false" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+          <folding>
+            <element signature="e#5495#5501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2104">
+          <caret line="240" column="40" lean-forward="true" selection-start-line="240" selection-start-column="40" selection-end-line="240" selection-end-column="40" />
+          <folding>
+            <element signature="e#6621#6627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="1660" column="40" lean-forward="true" selection-start-line="1660" selection-start-column="40" selection-end-line="1660" selection-end-column="40" />
+        <state relative-caret-position="138">
+          <caret line="1546" column="25" lean-forward="false" selection-start-line="1546" selection-start-column="25" selection-end-line="1546" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#span#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -605,25 +622,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user-public-album.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="76" column="49" lean-forward="true" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="102" column="12" lean-forward="false" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="94" column="50" lean-forward="false" selection-start-line="94" selection-start-column="50" selection-end-line="94" selection-end-column="50" />
-          <folding />
+        <state relative-caret-position="5939">
+          <caret line="600" column="50" lean-forward="false" selection-start-line="600" selection-start-column="50" selection-end-line="600" selection-end-column="50" />
+          <folding>
+            <element signature="e#25816#25822#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
