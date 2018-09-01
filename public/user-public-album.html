@@ -9,6 +9,8 @@
   <meta name="author" content="">
   <title>XFind</title>
 
+  <link href="css/style.css" rel="stylesheet">
+
   <!-- Vendor CSS BUNDLE
     Includes styling for all of the 3rd party libraries used with this module, such as Bootstrap, Font Awesome and others.
     TIP: Using bundles will improve performance by reducing the number of network requests the client needs to make when loading the page. -->
@@ -75,6 +77,8 @@ This variant is to be used when loading the separate styling modules -->
   <link href="css/app/colors-progress-bars.css" rel="stylesheet" />
   <link href="css/app/colors-text.css" rel="stylesheet" />
   <link href="css/app/ui.css" rel="stylesheet" />
+  <link href="css/app/gallery.css" rel="stylesheet">
+
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
 WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -103,7 +107,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
             <span class="icon-bar"></span>
           </button>
           <a href="#sidebar-chat" data-toggle="sidebar-menu" data-effect="st-effect-1" class="toggle pull-right visible-xs"><i class="fa fa-comments"></i></a>
-          <a class="navbar-brand" href="index.html">ThemeKit</a>
+          <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo.png"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -580,13 +584,76 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
               </div>
             </div>
           </div>
-
+          <!--Start Gallery-->
           <div class="container-fluid">
 
-            <h1>Blank Page</h1>
+            <div class="row">
+              <div class="col-md-9">
 
+                <div id="mdb-lightbox-ui"></div>
+
+                <div class="mdb-lightbox">
+
+                  <figure class="col-md-4">
+                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg" data-size="1600x1067">
+                      <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(145).jpg" class="img-fluid">
+                    </a>
+                  </figure>
+
+                  <figure class="col-md-4">
+                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                      <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(150).jpg" class="img-fluid" />
+                    </a>
+                  </figure>
+
+                  <figure class="col-md-4">
+                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(152).jpg" data-size="1600x1067">
+                      <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(152).jpg" class="img-fluid" />
+                    </a>
+                  </figure>
+
+                  <figure class="col-md-4">
+                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(42).jpg" data-size="1600x1067">
+                      <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(42).jpg" class="img-fluid" />
+                    </a>
+                  </figure>
+
+                  <figure class="col-md-4">
+                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(151).jpg" data-size="1600x1067">
+                      <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(151).jpg" class="img-fluid" />
+                    </a>
+                  </figure>
+
+                  <figure class="col-md-4">
+                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(40).jpg" data-size="1600x1067">
+                      <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(40).jpg" class="img-fluid" />
+                    </a>
+                  </figure>
+
+                  <figure class="col-md-4">
+                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(148).jpg" data-size="1600x1067">
+                      <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(148).jpg" class="img-fluid" />
+                    </a>
+                  </figure>
+
+                  <figure class="col-md-4">
+                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(147).jpg" data-size="1600x1067">
+                      <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg" class="img-fluid" />
+                    </a>
+                  </figure>
+
+                  <figure class="col-md-4">
+                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(149).jpg" data-size="1600x1067">
+                      <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(149).jpg" class="img-fluid" />
+                    </a>
+                  </figure>
+
+                </div>
+
+              </div>
+            </div>
           </div>
-
+        </div>
         </div>
         <!-- /st-content-inner -->
 
@@ -705,6 +772,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
   <script src="js/app/charts/easy-pie.js"></script>
   <script src="js/app/charts/morris.js"></script>
   <script src="js/app/charts/sparkline.js"></script>
+  <script src="js/app/gallery.js"></script>
 
   <!-- App Scripts CORE [social-2]:
         Includes the custom JavaScript for this theme/module;
