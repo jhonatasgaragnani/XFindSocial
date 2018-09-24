@@ -1,7 +1,6 @@
-/*!
- *  Material Design Iconic Font 1.0.1 by Sergey Kupletsky (@zavoloklom) - http://zavoloklom.github.io/material-design-iconic-font/
- *  License - https://github.com/zavoloklom/material-design-iconic-font/blob/gh-pages/License.md (Attribution-ShareAlike 4.0 International license)
- */
+/*Social Media by XFind*/
+
+
 @font-face {
   font-family: 'Material Design Iconic Font';
   src: url('../fonts/Material-Design-Iconic-Font.eot?v=1.0.1');
@@ -145,9 +144,7 @@
 :root .md-flip-vertical {
   filter: none;
 }
-/* Material Design Iconic Font uses the Unicode Private Use Area (PUA) to ensure screen
-   readers do not read off random characters that represent icons */
-/* If you do not want use all icons you can disable icon set here */
+
 .md-3d-rotation:before {
   content: "\f000";
 }

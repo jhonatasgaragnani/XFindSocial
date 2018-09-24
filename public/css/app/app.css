@@ -1,3 +1,5 @@
+/*Social Media by XFind*/
+
 .cover.profile {
   border-width: 0 0 1px 0;
 }
@@ -61,7 +63,7 @@
   background: #f9f9f9;
 }
 .messages-container .messages-list .list-group-item.active:hover {
-  background: #26a69a;
+  background: #7f0500;
 }
 .messages-container .messages-list .list-group-item .media-body {
   padding: 5px;
@@ -200,7 +202,7 @@ body.login .lock-container .panel .btn {
 body.login .lock-container .panel .forgot-password {
   margin: 10px 0 0;
   font-weight: 500;
-  color: #26a69a;
+  color: #7f0500;
   display: block;
 }
 .skins {
@@ -331,7 +333,7 @@ h6 {
   color: #6e7882;
 }
 .text-primary {
-  color: #26a69a;
+  color: #7f0500;
 }
 .buttons-spacing-vertical .btn + .btn {
   margin: 3px 2px;
@@ -448,10 +450,10 @@ fieldset[disabled] .btn-inverse.active {
   color: #212121;
 }
 .btn-stroke.btn-primary {
-  color: #26a69a;
+  color: #7f0500;
 }
 .btn-stroke.btn-primary:hover {
-  background: #26a69a;
+  background: #7f0500;
   color: #ffffff;
 }
 .btn-stroke.btn-success {
@@ -542,10 +544,10 @@ fieldset[disabled] .btn-inverse.active {
   border-right: none;
 }
 .btn-group-footer .btn:hover {
-  color: #26a69a;
+  color: #7f0500;
 }
 .badge.badge-primary {
-  background: #26a69a;
+  background: #7f0500;
   color: #fff;
 }
 .badge.badge-danger {
@@ -632,12 +634,12 @@ fieldset[disabled] .btn-inverse.active {
   color: #212121;
 }
 .ribbon-mark.ribbon-primary:before {
-  background: -webkit-linear-gradient(290deg, #22958b 50%, transparent 50%);
-  background: linear-gradient(160deg, #22958b 50%, transparent 50%);
+  background: -webkit-linear-gradient(290deg, #4f0401 50%, transparent 50%);
+  background: linear-gradient(160deg, #4f0401 50%, transparent 50%);
 }
 .ribbon-mark.ribbon-primary:after {
-  background: -webkit-linear-gradient(250deg, #26a69a 50%, transparent 50%);
-  background: linear-gradient(-160deg, #26a69a 50%, transparent 50%);
+  background: -webkit-linear-gradient(250deg, #7f0500 50%, transparent 50%);
+  background: linear-gradient(-160deg, #7f0500 50%, transparent 50%);
 }
 .ribbon-mark.ribbon-primary .text {
   color: #ffffff;
@@ -845,20 +847,20 @@ fieldset[disabled] .btn-inverse.active {
   border-bottom-color: #e6e6e6;
 }
 .ribbon-heading.ribbon-primary {
-  background-color: #26a69a;
+  background-color: #7f0500;
   color: #ffffff;
 }
 .ribbon-heading.ribbon-primary.bottom-left:before,
 .ribbon-heading.ribbon-primary.bottom-right:before,
 .ribbon-heading.ribbon-primary.bottom-left-right:before,
 .ribbon-heading.ribbon-primary.bottom-left-right:after {
-  border-top-color: #22958b;
+  border-top-color: #4f0401;
 }
 .ribbon-heading.ribbon-primary.top-left:before,
 .ribbon-heading.ribbon-primary.top-right:before,
 .ribbon-heading.ribbon-primary.top-left-right:before,
 .ribbon-heading.ribbon-primary.top-left-right:after {
-  border-bottom-color: #22958b;
+  border-bottom-color: #4f0401;
 }
 .ribbon-heading.absolute {
   z-index: 5;
@@ -873,11 +875,11 @@ fieldset[disabled] .btn-inverse.active {
   min-height: 135px;
 }
 .ribbon-corner {
-  background-color: #26a69a;
+  background-color: #7f0500;
   overflow: hidden;
   white-space: nowrap;
   top: 35px;
-  box-shadow: 0 3px 0 #22958b;
+  box-shadow: 0 3px 0 #4f0401;
   position: absolute;
   z-index: 5;
 }
@@ -1014,7 +1016,7 @@ fieldset[disabled] .btn-inverse.active {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active a:focus,
 .nav-tabs > li.active a:hover {
-  color: #26a69a;
+  color: #7f0500;
 }
 .nav-tabs > li:first-of-type > a,
 .nav-tabs > li:first-of-type > a:hover {
@@ -1026,7 +1028,7 @@ fieldset[disabled] .btn-inverse.active {
 [class*="tabs-highlight"] .nav-tabs > li.active:after {
   display: block;
   position: absolute;
-  background-color: #26a69a;
+  background-color: #7f0500;
   content: " ";
   left: 0;
   right: 0;
@@ -1041,9 +1043,9 @@ fieldset[disabled] .btn-inverse.active {
 .tabs-primary > .nav-tabs > li.active > a,
 .tabs-primary > .nav-tabs > li.active > a:focus,
 .tabs-primary > .nav-tabs > li.active > a:hover {
-  background-color: #26a69a;
+  background-color: #7f0500;
   color: #fff;
-  border-right-color: #26a69a;
+  border-right-color: #7f0500;
 }
 .tabs-vertical > .tab-content {
   position: relative;
@@ -1283,10 +1285,10 @@ input[type=radio]:focus + label::before {
 }
 .datepicker table tr td.active.active {
   font-weight: bold;
-  background: #26a69a !important;
+  background: #7f0500 !important;
 }
 .datepicker table tr td span.active.active {
-  background: #26a69a !important;
+  background: #7f0500 !important;
 }
 .minicolors-swatch {
   border: none !important;
@@ -1320,8 +1322,8 @@ input[type=radio]:focus + label::before {
 }
 .daterangepicker .ranges li.active,
 .daterangepicker .ranges li:hover {
-  background: #26a69a;
-  border: 1px solid #26a69a;
+  background: #7f0500;
+  border: 1px solid #7f0500;
   color: #fff ;
 }
 .daterangepicker .btn {
@@ -1339,8 +1341,8 @@ input[type=radio]:focus + label::before {
 }
 .daterangepicker td.active,
 .daterangepicker td.active:hover {
-  background-color: #26a69a;
-  border-color: #26a69a;
+  background-color: #7f0500;
+  border-color: #7f0500;
   color: #fff;
 }
 .daterangepicker.dropdown-menu {
@@ -1416,8 +1418,8 @@ input[type=radio]:focus + label::before {
   margin-top: 0;
 }
 .checkbox-primary input[type="checkbox"]:checked + label::before {
-  background-color: #26a69a;
-  border-color: #26a69a;
+  background-color: #7f0500;
+  border-color: #7f0500;
 }
 .checkbox-primary input[type="checkbox"]:checked + label::after {
   color: #fff;
@@ -1514,13 +1516,13 @@ input[type=radio]:focus + label::before {
   margin-top: 0;
 }
 .radio-primary input[type="radio"] + label::after {
-  background-color: #26a69a;
+  background-color: #7f0500;
 }
 .radio-primary input[type="radio"]:checked + label::before {
-  border-color: #26a69a;
+  border-color: #7f0500;
 }
 .radio-primary input[type="radio"]:checked + label::after {
-  background-color: #26a69a;
+  background-color: #7f0500;
 }
 .radio-danger input[type="radio"] + label::after {
   background-color: #bd362f;
@@ -1571,28 +1573,16 @@ input[type=radio]:focus + label::before {
 .checkbox.checkbox-single label:after {
   visibility: visible;
 }
-/*! Select2 Bootstrap 3 CSS v1.4.6 | MIT License | github.com/t0m/select2-bootstrap-css */
-/**
- * Reset Bootstrap 3 .form-control styles which - if applied to the
- * original <select>-element the Select2-plugin may be run against -
- * are copied to the .select2-container.
- *
- * 1. Overwrite .select2-container's original display:inline-block
- *    with Bootstrap 3's default for .form-control, display:block;
- *    courtesy of @juristr (@see https://github.com/fk/select2-bootstrap-css/pull/1)
- */
+
 .select2-container.form-control {
   background: transparent;
   border: none;
   box-shadow: none;
   display: block;
-  /* 1 */
   margin: 0;
   padding: 0;
 }
-/**
- * Adjust Select2 inputs to fit Bootstrap 3 default .form-control appearance.
- */
+
 .select2-container .select2-choices .select2-search-field input,
 .select2-container .select2-choice,
 .select2-container .select2-choices {
@@ -1618,24 +1608,16 @@ input[type=radio]:focus + label::before {
 .select2-container .select2-choices .select2-search-field input {
   box-shadow: none;
 }
-/**
- * Adjust Select2 input heights to match the Bootstrap default.
- */
+
 .select2-container .select2-choice {
   height: 34px;
   line-height: 1.42857143;
 }
-/**
- * Address Multi Select2's height which - depending on how many elements have been selected -
- * may grown higher than their initial size.
- */
+
 .select2-container.select2-container-multi.form-control {
   height: auto;
 }
-/**
- * Address Bootstrap 3 control sizing classes
- * @see http://getbootstrap.com/css/#forms-control-sizes
- */
+
 .select2-container.input-sm .select2-choice,
 .input-group-sm .select2-container .select2-choice {
   height: 30px;
@@ -1659,11 +1641,7 @@ input[type=radio]:focus + label::before {
 .input-group-lg .select2-container-multi .select2-choices .select2-search-field input {
   height: 44px;
 }
-/**
- * Adjust height and line-height for .select2-search-field amd multi-select Select2 widgets.
- *
- * 1. Class repetition to address missing .select2-chosen in Select2 < 3.3.2.
- */
+
 .select2-container-multi .select2-choices .select2-search-field input {
   margin: 0;
 }
@@ -1701,11 +1679,7 @@ input[type=radio]:focus + label::before {
 .input-group-lg .select2-container-multi .select2-choices .select2-search-choice {
   line-height: 24px;
 }
-/**
- * Adjust the single Select2's dropdown arrow button appearance.
- *
- * 1. For Select2 v.3.3.2.
- */
+
 .select2-container .select2-choice .select2-arrow,
 .select2-container .select2-choice div {
   border-left: none;
@@ -1718,12 +1692,7 @@ input[type=radio]:focus + label::before {
   background: none;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
-/**
- * Adjust the dropdown arrow button icon position for the single-select Select2 elements
- * to make it line up vertically now that we increased the height of .select2-container.
- *
- * 1. Class repetition to address missing .select2-chosen in Select2 v.3.3.2.
- */
+
 .select2-container .select2-choice .select2-arrow b,
 .select2-container .select2-choice div b {
   background-position: 0 3px;
@@ -1756,10 +1725,7 @@ input[type=radio]:focus + label::before {
 .input-group-lg .select2-dropdown-open .select2-choice div b {
   background-position: -18px 9px;
 }
-/**
- * Address Bootstrap's validation states and change Select2's border colors and focus states.
- * Apply .has-warning, .has-danger or .has-succes to #select2-drop to match Bootstraps' colors.
- */
+
 .has-warning .select2-choice,
 .has-warning .select2-choices {
   border-color: #f0ad4e;
@@ -1805,10 +1771,7 @@ input[type=radio]:focus + label::before {
 .has-success.select2-drop-active.select2-drop.select2-drop-above {
   border-top-color: #71a944;
 }
-/**
- * Make Select2's active-styles - applied to .select2-container when the widget receives focus -
- * fit Bootstrap 3's .form-element:focus appearance.
- */
+
 .select2-container-active .select2-choice,
 .select2-container-multi.select2-container-active .select2-choices {
   border-color: #dfdfdf;
@@ -1826,24 +1789,7 @@ input[type=radio]:focus + label::before {
 .select2-drop.select2-drop-above.select2-drop-active {
   border-top-color: #dfdfdf;
 }
-/**
- * Select2 widgets in Bootstrap Input Groups
- *
- * When Select2 widgets are combined with other elements using Bootstrap 3's
- * "Input Group" component, we don't want specific edges of the Select2 container
- * to have a border-radius.
- *
- * In Bootstrap 2, input groups required a markup where these style adjustments
- * could be bound to a CSS-class identifying if the additional elements are appended,
- * prepended or both.
- *
- * Bootstrap 3 doesn't rely on these classes anymore, so we have to use our own.
- * Use .select2-bootstrap-prepend and .select2-bootstrap-append on a Bootstrap 3 .input-group
- * to let the contained Select2 widget know which edges should not be rounded as they are
- * directly followed by another element.
- *
- * @see http://getbootstrap.com/components/#input-groups
- */
+
 .input-group.select2-bootstrap-prepend [class^="select2-choice"] {
   border-bottom-left-radius: 0 !important;
   border-top-left-radius: 0 !important;
@@ -1885,18 +1831,12 @@ input[type=radio]:focus + label::before {
 .input-group.input-group-lg.select2-bootstrap-append .select2-dropdown-open.select2-drop-above [class^="select2-choice"] {
   border-bottom-left-radius: 6px !important;
 }
-/**
- * Adjust Select2's choices hover and selected styles to match Bootstrap 3's default dropdown styles.
- */
+
 .select2-results .select2-highlighted {
   color: #ffffff;
-  background-color: #26a69a;
+  background-color: #7f0500;
 }
-/**
- * Adjust alignment of Bootstrap 3 buttons in Bootstrap 3 Input Groups to address
- * Multi Select2's height which - depending on how many elements have been selected -
- * may grown higher than their initial size.
- */
+
 .select2-bootstrap-append .select2-container-multiple,
 .select2-bootstrap-prepend .select2-container-multiple,
 .select2-bootstrap-append .input-group-btn,
@@ -1905,9 +1845,7 @@ input[type=radio]:focus + label::before {
 .select2-bootstrap-prepend .input-group-btn .btn {
   vertical-align: top;
 }
-/**
- * Make Multi Select2's choices match Bootstrap 3's default button styles.
- */
+
 .select2-container-multi .select2-choices .select2-search-choice {
   color: #333333;
   background: #efefef;
@@ -1921,40 +1859,23 @@ input[type=radio]:focus + label::before {
   color: #444444;
   box-shadow: none;
 }
-/**
- * Address Multi Select2's choice close-button vertical alignment.
- */
+
 .select2-search-choice-close {
   margin-top: -7px;
   top: 50%;
 }
-/**
- * Adjust the single Select2's clear button position (used to reset the select box
- * back to the placeholder value and visible once a selection is made
- * activated by Select2's "allowClear" option).
- */
+
 .select2-container .select2-choice abbr {
   top: 50%;
 }
-/**
- * Adjust "no results" and "selection limit" messages to make use
- * of Bootstrap 3's default "Alert" style.
- *
- * @see http://getbootstrap.com/components/#alerts-default
- */
+
 .select2-results .select2-no-results,
 .select2-results .select2-searching,
 .select2-results .select2-selection-limit {
   background-color: #eea236;
   color: #f0ad4e;
 }
-/**
- * Address disabled Select2 styles.
- *
- * 1. For Select2 v.3.3.2.
- * 2. Revert border-left:0 inherited from Select2's CSS to prevent the arrow
- *    from jumping when switching from disabled to enabled state and vice versa.
- */
+
 .select2-container.select2-container-disabled .select2-choice,
 .select2-container.select2-container-disabled .select2-choices {
   cursor: not-allowed;
@@ -1967,47 +1888,17 @@ input[type=radio]:focus + label::before {
 .select2-container.select2-container-disabled .select2-choices div {
   background-color: transparent;
   border-left: 1px solid transparent;
-  /* 2 */
+
 }
-/**
- * Address Select2's loading indicator position - which should not stick
- * to the right edge of Select2's search input.
- *
- * 1. in .select2-search input
- * 2. in Multi Select2's .select2-search-field input
- * 3. in the status-message of infinite-scroll with remote data (@see http://ivaynberg.github.io/select2/#infinite)
- *
- * These styles alter Select2's default background-position of 100%
- * and supply the new background-position syntax to browsers which support it:
- *
- * 1. Android, Safari < 6/Mobile, IE<9: change to a relative background-position of 99%
- * 2. Chrome 25+, Firefox 13+, IE 9+, Opera 10.5+: use the new CSS3-background-position syntax
- *
- * @see http://www.w3.org/TR/css3-background/#background-position
- *
- * @todo Since both Select2 and Bootstrap 3 only support IE8 and above,
- * we could use the :after-pseudo-element to display the loading indicator.
- * Alternatively, we could supply an altered loading indicator image which already
- * contains an offset to the right.
- */
+
 .select2-search input.select2-active,
 .select2-container-multi .select2-choices .select2-search-field input.select2-active,
 .select2-more-results.select2-active {
   background-position: 99%;
-  /* 4 */
   background-position: right 4px center;
-  /* 5 */
+
 }
-/**
- * To support Select2 pre v3.4.2 in combination with Bootstrap v3.2.0,
- * ensure that .select2-offscreen width, height and position can not be overwritten.
- *
- * This adresses changes in Bootstrap somewhere after the initial v3.0.0 which –
- * in combination with Select2's pre-v3.4.2 CSS missing the "!important" after
- * the following rules – allow Bootstrap to overwrite the latter, which results in
- * the original <select> element Select2 is replacing not be properly being hidden
- * when used in a "Bootstrap Input Group with Addon".
- **/
+/
 .select2-offscreen,
 .select2-offscreen:focus {
   width: 1px !important;
@@ -2058,9 +1949,8 @@ input[type=radio]:focus + label::before {
   margin-bottom: 5px;
 }
 .bootstrap-select {
-  /*width: 220px\9; IE8 and below*/
   width: 220px \0;
-  /*IE9 and below*/
+
 }
 .bootstrap-select > .btn {
   width: 100%;
@@ -2348,7 +2238,7 @@ input[type=radio]:focus + label::before {
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary {
   color: #fff;
-  background: #26a69a;
+  background: #7f0500;
 }
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-info,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-info {
@@ -2499,7 +2389,7 @@ input[type=radio]:focus + label::before {
 .rating span.star.filled:before,
 .rating span.star:hover ~ span.star:before {
   content: "\f005";
-  color: #26a69a;
+  color: #7f0500;
 }
 .cover .jumbotron {
   padding-left: 60px;
@@ -2512,7 +2402,7 @@ input[type=radio]:focus + label::before {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* VARIABLES */
+
 svg {
   shape-rendering: geometric-precision;
   height: 100%;
@@ -2526,7 +2416,7 @@ svg {
   stroke-width: 0px;
   stroke: white;
 }
-/* SVG GLOBAL */
+
 svg {
   shape-rendering: geometricPrecision;
 }
@@ -2548,7 +2438,7 @@ rect {
   -webkit-animation-duration: 12s;
   animation-duration: 12s;
 }
-/* SUN */
+
 .climacon_componentWrap-sun {
   -webkit-animation-name: rotate;
   animation-name: rotate;
@@ -2567,12 +2457,12 @@ rect {
   -webkit-animation-delay: 3s;
   animation-delay: 3s;
 }
-/* MOON */
+
 .climacon_componentWrap-moon {
   -webkit-animation-name: wobble;
   animation-name: wobble;
 }
-/* SNOWFLAKE */
+
 .climacon_componentWrap-snowflake {
   -webkit-animation-name: rotate;
   animation-name: rotate;
@@ -2581,7 +2471,7 @@ rect {
   -webkit-animation-direction: normal;
   animation-direction: normal;
 }
-/* WIND */
+
 .climacon_componentWrap-wind {
   -webkit-animation-name: translateWind;
   animation-name: translateWind;
@@ -2592,7 +2482,7 @@ rect {
   -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
 }
-/* CLOUD SUN */
+
 .climacon_componentWrap-sun_cloud {
   -webkit-animation-name: behindCloudMove, rotate;
   animation-name: behindCloudMove, rotate;
@@ -2624,7 +2514,7 @@ rect {
   -webkit-animation-delay: 3s;
   animation-delay: 3s;
 }
-/* CLOUD MOON */
+
 .climacon_componentWrap-moon_cloud {
   -webkit-animation-name: behindCloudMove, wobble;
   animation-name: behindCloudMove, wobble;
@@ -2637,7 +2527,7 @@ rect {
   -webkit-animation-duration: 3s, 12s;
   animation-duration: 3s, 12s;
 }
-/* DRIZZLE */
+
 .climacon_component-stroke_drizzle {
   fill-opacity: 0;
   -webkit-animation-name: drizzleFall, fillOpacity2;
@@ -2659,7 +2549,7 @@ rect {
   -webkit-animation-delay: 1.2s;
   animation-delay: 1.2s;
 }
-/* RAIN */
+
 .climacon_component-stroke_rain {
   fill-opacity: 0;
   -webkit-animation-name: rainFall, fillOpacity2;
@@ -2686,8 +2576,7 @@ rect {
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
 }
-/* HAIL */
-/* HAIL ALT */
+
 .climacon_component-stroke_hailAlt {
   fill-opacity: 0;
   -webkit-animation-timing-function: ease-in;
@@ -2735,7 +2624,7 @@ rect {
   -webkit-animation-delay: 0.55556s;
   animation-delay: 0.55556s;
 }
-/* SNOW */
+
 .climacon_component-stroke_snow {
   fill-opacity: 0;
   -webkit-animation-name: snowFall, fillOpacity2;
@@ -2761,7 +2650,7 @@ rect {
   -webkit-animation-delay: 4s;
   animation-delay: 4s;
 }
-/* SNOW ALT */
+
 .climacon_component-snowAlt {
   fill-opacity: 0;
   -webkit-animation-name: snowFall, fillOpacity2;
@@ -2771,7 +2660,7 @@ rect {
   -webkit-animation-duration: 6s;
   animation-duration: 6s;
 }
-/* FOG */
+
 .climacon_component-stroke_fogLine {
   fill-opacity: 0.5;
   -webkit-animation-name: translateFog, fillOpacityFog;
@@ -2789,7 +2678,7 @@ rect {
   -webkit-animation-delay: 6s;
   animation-delay: 6s;
 }
-/* LIGHTNING */
+
 .climacon_component-stroke_lightning {
   fill-opacity: 0;
   -webkit-animation-name: lightningFlash;
@@ -2803,7 +2692,7 @@ rect {
   -webkit-animation-duration: 12s;
   animation-duration: 12s;
 }
-/* TORNADO */
+
 .climacon_component-stroke_tornadoLine {
   -webkit-animation-name: translateTornado1;
   animation-name: translateTornado1;
@@ -2880,7 +2769,7 @@ rect {
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
-/* ANIMATIONS */
+
 @-webkit-keyframes rotate {
   0% {
     -webkit-transform: rotate(0);
@@ -6025,7 +5914,7 @@ rect {
             transform: translateY(17.5px) translateX(0px);
   }
 }
-/* Tornado */
+
 @-webkit-keyframes translateTornado1 {
   0% {
     -webkit-transform: translateY(0);
@@ -6490,7 +6379,7 @@ ul.icon-list.icon-list-block li:not(:last-of-type) {
 }
 .table-pricing-2 th {
   padding: 12px 0;
-  background: #26a69a;
+  background: #7f0500;
   font-size: 14px;
   color: #fff;
   border-color: #5a5855;
@@ -6565,7 +6454,7 @@ ul.icon-list.icon-list-block li:not(:last-of-type) {
 }
 .table-pricing-3 > ul > li.active .pricing-body {
   border-color: #8be4dc;
-  background-color: #26a69a;
+  background-color: #7f0500;
 }
 .table-pricing-3 > ul > li.active .pricing-body .price {
   color: #ffffff;
@@ -6608,7 +6497,7 @@ ul.icon-list.icon-list-block li:not(:last-of-type) {
   margin-top: 10px;
 }
 .dataTables_wrapper table thead tr th {
-  color: #26a69a;
+  color: #7f0500;
 }
 .dataTables_wrapper table thead tr th:hover {
   cursor: pointer;
@@ -6633,11 +6522,11 @@ ul.icon-list.icon-list-block li:not(:last-of-type) {
   display: inline-block;
 }
 .label-primary {
-  background-color: #26a69a;
+  background-color: #7f0500;
 }
 .label-primary[href]:hover,
 .label-primary[href]:focus {
-  background-color: #7f0500;
+  background-color: #1c7d74;
 }
 .label-grey-300 {
   background-color: #e0e0e0;
@@ -6949,7 +6838,7 @@ ul.icon-list.icon-list-block li:not(:last-of-type) {
   background-color: #f5f5f5;
 }
 .bg-primary {
-  background: #26a69a;
+  background: #7f0500;
   color: #fff;
 }
 .bg-white {
@@ -10847,7 +10736,7 @@ ul.fancytree-container li ul {
   color: #9e9e9e;
 }
 .fancytree-folder .fancytree-icon {
-  color: #26a69a;
+  color: #7f0500;
 }
 .fancytree-expander {
   color: #9e9e9e;
@@ -10874,10 +10763,10 @@ span.fancytree-node.fancytree-active .fancytree-expander {
   color: #616161;
 }
 .fancytree-container.fancytree-treefocus span.fancytree-node:hover.fancytree-folder .fancytree-icon {
-  color: #26a69a;
+  color: #7f0500;
 }
 .fancytree-container.fancytree-treefocus span.fancytree-node.fancytree-focused {
-  border-color: #26a69a;
+  border-color: #7f0500;
 }
 .fancytree-container.fancytree-treefocus span.fancytree-node.fancytree-selected {
   background-color: #f5f5f5;
@@ -10894,8 +10783,8 @@ span.fancytree-node.fancytree-active .fancytree-expander {
   background-color: #f0f0f0;
 }
 .fancytree-container.fancytree-treefocus span.fancytree-node.fancytree-active {
-  background-color: #26a69a;
-  border-color: #26a69a;
+  background-color: #7f0500;
+  border-color: #7f0500;
 }
 .fancytree-container.fancytree-treefocus span.fancytree-node.fancytree-active .fancytree-title,
 .fancytree-container.fancytree-treefocus span.fancytree-node.fancytree-active .fancytree-icon,
@@ -10952,14 +10841,14 @@ span.fancytree-node.fancytree-active .fancytree-expander {
   height: 20px;
   margin-top: -6px;
   display: inline-block;
-  color: #26a69a;
+  color: #7f0500;
 }
 .slider-handle i {
   position: relative;
   top: -1px;
 }
 .slider-selection {
-  background: #26a69a;
+  background: #7f0500;
 }
 .comment-reply {
   padding-left: 60px;
@@ -11002,7 +10891,7 @@ span.fancytree-node.fancytree-active .fancytree-expander {
   height: 28px;
   line-height: 28px;
   border-radius: 50%;
-  background-color: #26a69a;
+  background-color: #7f0500;
   color: #ffffff;
   box-shadow: 0 -3px 0 #ffffff;
 }
@@ -11150,7 +11039,7 @@ span.fancytree-node.fancytree-active .fancytree-expander {
   box-shadow: none;
 }
 .nestable-handle-primary .nestable-handle {
-  background-color: #26a69a;
+  background-color: #7f0500;
   color: #ffffff;
 }
 .list-group.list-group-sp .list-group-item {
@@ -11532,7 +11421,7 @@ fieldset[disabled] .cover.overlay .btn-cover.active {
   .cover.overlay .cover-nav li.active a,
   .cover.overlay .cover-nav li.active a:hover {
     color: #fff;
-    background: #26a69a;
+    background: #7f0500;
   }
   .cover.overlay .cover-nav li a:hover {
     color: #fff;
@@ -11563,7 +11452,7 @@ fieldset[disabled] .cover.overlay .btn-cover.active {
     display: block;
   }
   .cover.overlay .cover-nav li.active a {
-    background: #26a69a;
+    background: #7f0500;
     color: #fff;
   }
   .cover.overlay .cover-nav li.active a i {
@@ -15161,7 +15050,7 @@ ul.img-grid li img {
 }
 .wizard-1 .wiz-progress li.active:before,
 .wizard-1 .wiz-progress li.active:after {
-  background: #26a69a;
+  background: #7f0500;
   color: #ffffff;
 }
 .wizard-1 .wiz-progress li:first-child:after {
@@ -15174,7 +15063,7 @@ ul.img-grid li img {
 }
 .wizard-1 .wiz-progress li.complete:before,
 .wizard-1 .wiz-progress li.complete:after {
-  background: #26a69a;
+  background: #7f0500;
   color: #ffffff;
 }
 .note-editor .btn.dropdown-toggle,
@@ -15184,23 +15073,11 @@ ul.img-grid li img {
 .note-editor .btn-group .btn {
   border: none !important;
 }
-/*---------------------------------------------------
-    LESS Elements 0.9
-  ---------------------------------------------------
-    A set of useful LESS mixins
-    More info at: http://lesselements.com
-  ---------------------------------------------------*/
-/* Frame Mode Layout
- ------------------------------------------*/
+
 .note-editor {
   border: 1px solid #e0e0e0;
   position: relative;
-  /* dropzone */
-  /* fullscreen mode */
-  /* codeview mode */
-  /* statusbar */
-  /* editable */
-  /* codeable */
+
 }
 .note-editor .note-dropzone {
   position: absolute;
@@ -15236,7 +15113,7 @@ ul.img-grid li img {
   left: 0;
   width: 100%;
   z-index: 1050;
-  /* bs3 modal-backdrop: 1030, bs2: 1040 */
+
 }
 .note-editor.fullscreen .note-editable {
   background-color: white;
@@ -15287,18 +15164,15 @@ ul.img-grid li img {
   color: #ccc;
   background-color: #222;
   resize: none;
-  /* override BS2 default style */
   box-sizing: border-box;
   border-radius: 0;
   margin-bottom: 0;
 }
-/* Air Mode Layout
- ------------------------------------------*/
+
 .note-air-editor {
   outline: none;
 }
-/* Popover
- ------------------------------------------*/
+
 .note-popover .popover {
   max-width: none;
 }
@@ -15308,21 +15182,18 @@ ul.img-grid li img {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  /* for FF */
   vertical-align: middle;
-  /* for FF */
+
 }
 .note-popover .popover .arrow {
   left: 20px;
 }
-/* Popover and Toolbar (Button container)
- ------------------------------------------*/
+
 .note-popover .popover .popover-content,
 .note-toolbar {
   margin: 0;
   padding: 0 0 5px 5px;
-  /* dropdown-menu for toolbar and popover */
-  /* color palette for toolbar and popover */
+
 }
 .note-popover .popover .popover-content > .btn-group,
 .note-toolbar > .btn-group {
@@ -15431,9 +15302,7 @@ ul.img-grid li img {
 .note-popover .popover .popover-content .dropdown-menu,
 .note-toolbar .dropdown-menu {
   min-width: 90px;
-  /* dropdown-menu right position */
-  /* http://forrst.com/posts/Bootstrap_right_positioned_dropdown-2KB */
-  /* dropdown-menu for selectbox */
+
 }
 .note-popover .popover .popover-content .dropdown-menu.right,
 .note-toolbar .dropdown-menu.right {
@@ -15479,26 +15348,23 @@ ul.img-grid li img {
 .note-toolbar .note-color-palette div .note-color-btn:hover {
   border: 1px solid #000;
 }
-/* Dialog
- ------------------------------------------*/
+
 .note-dialog > div {
   display: none;
-  /* BS2's hide pacth. */
+
 }
 .note-dialog .form-group {
-  /* overwrite BS's form-horizontal minus margins */
   margin-left: 0;
   margin-right: 0;
 }
 .note-dialog .note-modal-form {
   margin: 0;
-  /* overwrite BS2's form margin bottom */
+
 }
 .note-dialog .note-image-dialog .note-dropzone {
   min-height: 100px;
   font-size: 30px;
   line-height: 4;
-  /* vertical-align */
   color: lightgray;
   text-align: center;
   border: 4px dashed lightgray;
@@ -15510,7 +15376,6 @@ ul.img-grid li img {
   background-color: #222 !important;
   filter: alpha(opacity=90);
   opacity: 0.9;
-  /* BS2's background pacth. */
   background: transparent;
   border: none;
 }
@@ -15562,10 +15427,9 @@ ul.img-grid li img {
   color: #dddd00;
   text-align: right;
 }
-/* Handle
- ------------------------------------------*/
+
 .note-handle {
-  /* control selection */
+
 }
 .note-handle .note-control-selection {
   position: absolute;
@@ -15640,7 +15504,7 @@ ul.img-grid li img {
   vertical-align: middle;
 }
 .demo-icons-list .col-md-4:hover {
-  background: #26a69a;
+  background: #7f0500;
   color: #fff;
 }
 .demo-icons-list span {
@@ -15771,7 +15635,7 @@ ul.notifications-timeline li .content {
 .score-block .score {
   font-size: 24px;
   line-height: 20px;
-  color: #26a69a;
+  color: #7f0500;
 }
 .weather-svg {
   overflow: hidden;
@@ -15795,12 +15659,12 @@ ul.notifications-timeline li .content {
 }
 .weather-svg .list svg {
   width: 40%;
-  color: #26a69a;
+  color: #7f0500;
   height: auto;
 }
 .weather-svg .today svg {
   width: 200px;
-  color: #26a69a;
+  color: #7f0500;
 }
 .weather-svg .today .details {
   display: inline-block;
@@ -15811,7 +15675,7 @@ ul.notifications-timeline li .content {
   margin-bottom: 20px;
 }
 .weather-svg .today .details strong {
-  color: #26a69a;
+  color: #7f0500;
 }
 .cover svg {
   color: #fff !important;
@@ -15946,7 +15810,7 @@ ul.notifications-timeline li .content {
   bottom: 0;
 }
 .chat-window-container .panel .panel-heading {
-  background: #26a69a;
+  background: #7f0500;
   padding: 0;
   line-height: 39px;
 }
@@ -16117,7 +15981,7 @@ ul.notifications-timeline li .content {
 }
 .sidebar-chat.chat-skin-white .chat-filter li.active a,
 .sidebar-chat.chat-skin-white .chat-filter li.active a:hover {
-  background: #26a69a;
+  background: #7f0500;
   color: #fff;
 }
 .sidebar-chat.chat-skin-white .chat-contacts li {
@@ -16181,7 +16045,7 @@ ul.notifications-timeline li .content {
 }
 .sidebar-chat.chat-skin-dark .chat-filter li.active a,
 .sidebar-chat.chat-skin-dark .chat-filter li.active a:hover {
-  background: #26a69a;
+  background: #7f0500;
   color: #fff;
 }
 .sidebar-chat.chat-skin-dark .chat-contacts li {
@@ -16208,10 +16072,7 @@ ul.notifications-timeline li .content {
 .sidebar-chat.chat-skin-dark .chat-contacts li > a:hover {
   background: #292929;
 }
-/*
- * Off Canvas
- * --------------------------------------------------
- */
+
 @media screen and (max-width: 767px) {
   .row-offcanvas {
     position: relative;
@@ -16226,25 +16087,25 @@ ul.notifications-timeline li .content {
   }
   .row-offcanvas-right .sidebar-offcanvas {
     right: -75%;
-    /* 6 columns */
+
   }
   .row-offcanvas-left .sidebar-offcanvas {
     left: -50%;
-    /* 6 columns */
+
   }
   .row-offcanvas-right.active {
     right: 80%;
-    /* 6 columns */
+
   }
   .row-offcanvas-left.active {
     left: 50%;
-    /* 6 columns */
+
   }
   .sidebar-offcanvas {
     position: absolute;
     top: 0;
     width: 75%;
-    /* 6 columns */
+
   }
 }
 .status-share .form-control {
@@ -16313,7 +16174,7 @@ ul.notifications-timeline li .content {
   margin-right: 10px;
 }
 .post-place a:hover {
-  color: #26a69a;
+  color: #7f0500;
   text-decoration: none;
 }
 .timeline-experience {
@@ -16368,7 +16229,7 @@ ul.notifications-timeline li .content {
   margin-right: 10px;
 }
 .timeline-experience .item-media a:hover {
-  color: #26a69a;
+  color: #7f0500;
   text-decoration: none;
 }
 .timeline-attachment {
@@ -16389,7 +16250,7 @@ ul.notifications-timeline li .content {
 }
 .timeline-block .panel-heading {
   padding: 0;
-  background: #26a69a;
+  background: #7f0500;
   color: #fff;
   border-bottom: 0;
 }
@@ -16532,11 +16393,11 @@ ul.timeline-list .media-body.fixed {
 }
 .timeline-months li.active a,
 .timeline-months li.active:hover a {
-  color: #26a69a;
+  color: #7f0500;
 }
 .timeline-months li.active a i,
 .timeline-months li.active:hover a i {
-  color: #26a69a;
+  color: #7f0500;
 }
 .timeline-months li a {
   color: #cfcfcf;
@@ -16561,7 +16422,7 @@ ul.timeline-list .media-body.fixed {
 }
 .view-all-comments a:hover {
   text-decoration: none;
-  color: #26a69a;
+  color: #7f0500;
 }
 .panel.panel-default ul.comments {
   list-style: none;
@@ -16615,12 +16476,12 @@ ul.timeline-list .media-body.fixed {
   padding: 0;
 }
 .panel.panel-default ul.comments li .pull-right.dropdown .dropdown-menu li a:hover {
-  color: #26a69a;
+  color: #7f0500;
 }
 .panel.panel-default ul.comments a.comment-author {
   font-weight: 500;
   font-size: 14px;
-  color: #26a69a;
+  color: #7f0500;
   padding-right: 5px;
 }
 .panel.panel-default ul.comments .comment-date {
@@ -16654,7 +16515,7 @@ ul.timeline-list .media-body.fixed {
   margin-top: -110px;
   margin-bottom: 20px;
   display: block;
-  background: #26a69a;
+  background: #7f0500;
   border: 1px solid #239a8e;
   text-align: center;
   line-height: 120px;
@@ -16725,7 +16586,7 @@ ul.timeline-list .media-body.fixed {
   border-right: 1px solid #e2e9e6;
 }
 .panel .share-buttons a:hover i {
-  color: #26a69a;
+  color: #7f0500;
 }
 .panel .share-buttons button {
   margin: 0px;
@@ -16837,8 +16698,6 @@ ul.timeline-list .media-body.fixed {
   content: "";
   z-index: 2;
   pointer-events: none;
-  /* "all" disables mouse access to image */
-  /* Mozilla Setting */
   background-image: -webkit-linear-gradient(transparent, black);
   background-image: linear-gradient(transparent, black);
   opacity: .7;
@@ -17521,7 +17380,7 @@ html.app-mobile #content .container-fluid {
 }
 .navbar-brand.navbar-brand-primary,
 .navbar-brand.navbar-brand-primary:hover {
-  background: #26a69a;
+  background: #7f0500;
   color: #fff;
 }
 .navbar-brand.navbar-brand-primary a,
@@ -17537,7 +17396,7 @@ html.app-mobile #content .container-fluid {
   height: 1px;
   left: 0;
   right: 0;
-  background: #7f0500;
+  background: #1c7d74;
 }
 @media (min-width: 768px) {
   .navbar-toggle-demo > .container .navbar-brand,
@@ -17577,15 +17436,15 @@ html.app-mobile #content .container-fluid {
   color: #212121;
 }
 .navbar-default .toggle.active {
-  background: #22958b;
+  background: #4f0401;
   color: #fff;
 }
 .navbar-primary .toggle {
-  background: #22958b;
+  background: #4f0401;
   color: #fff;
 }
 .navbar-primary .toggle.active {
-  color: #26a69a;
+  color: #7f0500;
   background: #ffffff;
 }
 @media (min-width: 768px) {
@@ -17649,7 +17508,7 @@ html.app-mobile #content .container-fluid {
 .navbar-nav .dropdown-menu > li.active > a,
 .navbar-nav .dropdown-menu > li a:hover {
   background: #f5f7f7;
-  color: #26a69a;
+  color: #7f0500;
 }
 .navbar-nav > li.notifications.files img {
   width: 35px !important;
@@ -17900,7 +17759,7 @@ html.app-mobile #content .container-fluid {
   }
 }
 .navbar-subnav.navbar {
-  min-height: 70px;
+  min-height: 60px;
 }
 .navbar-subnav .navbar-nav > li > a {
   padding-top: 0px;
@@ -17956,21 +17815,21 @@ html.app-mobile #content .container-fluid {
 }
 .navbar-default .navbar-nav > li.active > a i,
 .navbar-default .navbar-nav > li.open > a i {
-  color: #26a69a;
+  color: #7f0500;
 }
 .navbar-default .navbar-nav > li > a i {
   color: #212121;
 }
 .navbar-default .navbar-nav > li > a:hover i {
-  color: #26a69a;
+  color: #7f0500;
 }
 .navbar-default .navbar-nav > .nav-item-primary > a {
-  background-color: #26a69a;
+  background-color: #7f0500;
   color: #fff;
 }
 .navbar-default .navbar-nav > .nav-item-primary > a:hover,
 .navbar-default .navbar-nav > .nav-item-primary > a:focus {
-  background-color: #22958b;
+  background-color: #4f0401;
   color: #ffffff;
 }
 .navbar-default .navbar-form .checkbox {
@@ -17980,7 +17839,7 @@ html.app-mobile #content .container-fluid {
   background: #3c4340;
 }
 .navbar-default .navbar-nav > li.notifications a.dropdown-toggle .badge.badge-primary {
-  background: #26a69a;
+  background: #7f0500;
 }
 .navbar-default .navbar-nav > li.notifications a.dropdown-toggle .badge.badge-danger {
   background: #bd362f;
@@ -18000,12 +17859,12 @@ html.app-mobile #content .container-fluid {
   background-color: #f7f7f7;
 }
 .navbar-primary {
-  background-color: #26a69a;
-  border-color: #26a69a;
+  background-color: #7f0500;
+  border-color: #7f0500;
 }
 @media (min-width: 768px) {
   .navbar-primary .navbar-brand {
-    border-right-color: #2bbbad;
+    border-right-color: #7f0500;
   }
 }
 @media (min-width: 768px) {
@@ -18023,7 +17882,7 @@ html.app-mobile #content .container-fluid {
   color: #ffffff;
 }
 .navbar-primary .navbar-brand.navbar-brand-primary {
-  background-color: #22958b;
+  background-color: #4f0401;
 }
 .navbar-primary .navbar-text {
   color: #ffffff;
@@ -18034,7 +17893,7 @@ html.app-mobile #content .container-fluid {
 }
 .navbar-primary .navbar-nav > li > a:focus,
 .navbar-primary .navbar-nav > li > a:hover {
-  background-color: #22958b;
+  background-color: #4f0401;
 }
 .navbar-primary .navbar-nav .open > a,
 .navbar-primary .navbar-nav > .active > a,
@@ -18042,10 +17901,10 @@ html.app-mobile #content .container-fluid {
 .navbar-primary .navbar-nav > .active > a:focus,
 .navbar-primary .navbar-nav .open > a:hover,
 .navbar-primary .navbar-nav > .active > a:hover {
-  background: #22958b;
+  background: #4f0401;
 }
 .navbar-primary .navbar-nav > .nav-item-primary > a {
-  background-color: #22958b;
+  background-color: #4f0401;
   color: #fff;
 }
 .navbar-primary .navbar-nav > .nav-item-primary > a:hover,
@@ -18059,7 +17918,7 @@ html.app-mobile #content .container-fluid {
   }
 }
 .navbar-primary .navbar-toggle {
-  background-color: #22958b;
+  background-color: #4f0401;
 }
 .navbar-primary .navbar-toggle:hover,
 .navbar-primary .navbar-toggle:focus {
@@ -18077,11 +17936,11 @@ html.app-mobile #content .container-fluid {
   color: #212121;
 }
 .navbar-primary .navbar-nav > li.notifications a.dropdown-toggle.btn {
-  background: #22958b;
+  background: #4f0401;
 }
 .navbar-primary .navbar-form .form-control {
-  background: #22958b;
-  border-color: #22958b;
+  background: #4f0401;
+  border-color: #4f0401;
   color: #ffffff;
 }
 .navbar-primary .navbar-form .form-control::-moz-placeholder {
@@ -18112,7 +17971,7 @@ html.app-mobile #content .container-fluid {
 }
 .navbar-primary .btn-default {
   color: #ffffff;
-  background-color: #26a69a;
+  background-color: #7f0500;
   border-color: #1e857b;
 }
 .navbar-primary .btn-default:hover,
@@ -18122,7 +17981,7 @@ html.app-mobile #content .container-fluid {
 .navbar-primary .btn-default.active,
 .open > .dropdown-toggle.navbar-primary .btn-default {
   color: #ffffff;
-  background-color: #7f0500;
+  background-color: #1c7d74;
   border-color: #13534d;
 }
 .navbar-primary .btn-default:active,
@@ -18148,16 +18007,16 @@ fieldset[disabled] .navbar-primary .btn-default:active,
 .navbar-primary .btn-default.disabled.active,
 .navbar-primary .btn-default[disabled].active,
 fieldset[disabled] .navbar-primary .btn-default.active {
-  background-color: #26a69a;
+  background-color: #7f0500;
   border-color: #1e857b;
 }
 .navbar-primary .btn-default .badge {
-  color: #26a69a;
+  color: #7f0500;
   background-color: #ffffff;
 }
 .navbar-primary .btn-primary {
   color: #ffffff;
-  background-color: #22958b;
+  background-color: #4f0401;
   border-color: #1e857b;
 }
 .navbar-primary .btn-primary:hover,
@@ -18193,11 +18052,11 @@ fieldset[disabled] .navbar-primary .btn-primary:active,
 .navbar-primary .btn-primary.disabled.active,
 .navbar-primary .btn-primary[disabled].active,
 fieldset[disabled] .navbar-primary .btn-primary.active {
-  background-color: #22958b;
+  background-color: #4f0401;
   border-color: #1e857b;
 }
 .navbar-primary .btn-primary .badge {
-  color: #22958b;
+  color: #4f0401;
   background-color: #ffffff;
 }
 .navbar-primary .bootstrap-switch {
@@ -18236,7 +18095,7 @@ fieldset[disabled] .navbar-primary .btn-primary.active {
     color: #212121;
   }
   .navbar-skin-cover .navbar-nav > li > a:hover i {
-    color: #26a69a;
+    color: #7f0500;
   }
 }
 @media (min-width: 768px) {
@@ -25067,7 +24926,7 @@ html.app-mobile #content .container-fluid .sidebar {
 }
 .sidebar [data-scrollable] {
   position: absolute;
-  top: 0;
+  top: 40px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -25304,7 +25163,7 @@ html.app-mobile #content .container-fluid .sidebar {
 .sidebar > #dropdown-temp .dropdown-menu > li.active > a,
 .sidebar > #dropdown-temp .dropdown-menu > li a:hover {
   background: #f5f7f7;
-  color: #26a69a;
+  color: #7f0500;
 }
 .sidebar > #dropdown-temp .submenu-show {
   display: block;
@@ -25576,7 +25435,6 @@ html.st-layout .st-content {
   background: #f5f5f5;
 }
 .st-content-inner {
-  overflow-y: scroll;
   height: 100%;
 }
 .st-content,
@@ -25687,8 +25545,7 @@ html.st-layout .st-content {
     display: none;
   }
 }
-/* Individual effects */
-/* Effect 1: Slide in on top */
+
 .st-effect-1.sidebar {
   visibility: visible;
 }
@@ -25708,7 +25565,7 @@ html.st-layout .st-content {
 .st-effect-1.sidebar::after {
   display: none;
 }
-/* Effect 2: Reveal */
+
 .st-effect-r1 .st-effect-2.st-menu-open .st-pusher {
   -webkit-transform: translate3d(-100%, 0, 0);
           transform: translate3d(-100%, 0, 0);
@@ -25744,7 +25601,7 @@ html.st-layout .st-content {
 .st-effect-2.sidebar::after {
   display: none;
 }
-/* Effect 3: Push*/
+
 .st-effect-l1 .st-effect-3.st-menu-open .st-pusher {
   -webkit-transform: translate3d(100%, 0, 0);
           transform: translate3d(100%, 0, 0);
@@ -25785,7 +25642,7 @@ html.st-layout .st-content {
 .st-effect-3.sidebar::after {
   display: none;
 }
-/* Effect 4: Slide along */
+
 .st-effect-l2 .st-effect-4.st-menu-open .st-pusher {
   -webkit-transform: translate3d(200px, 0, 0);
           transform: translate3d(200px, 0, 0);
@@ -25823,7 +25680,7 @@ html.st-layout .st-content {
 .st-effect-4.sidebar::after {
   display: none;
 }
-/* Effect 5: Reverse slide out */
+
 .st-effect-l2 .st-effect-5.st-menu-open .st-pusher {
   -webkit-transform: translate3d(200px, 0, 0);
           transform: translate3d(200px, 0, 0);
@@ -25858,7 +25715,7 @@ html.st-layout .st-content {
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
 }
-/* Effect 6: Rotate pusher */
+
 .st-effect-6.st-container {
   -webkit-perspective: 1500px;
           perspective: 1500px;
@@ -25915,7 +25772,7 @@ html.st-layout .st-content {
 .st-effect-6.sidebar::after {
   display: none;
 }
-/* Effect 7: 3D rotate in */
+
 .st-effect-7.st-container {
   -webkit-perspective: 1500px;
           perspective: 1500px;
@@ -25974,7 +25831,7 @@ html.st-layout .st-content {
   -webkit-transform: translate3d(-100%, 0, 0) rotateY(0deg);
           transform: translate3d(-100%, 0, 0) rotateY(0deg);
 }
-/* Effect 8: 3D rotate out */
+
 .st-effect-8.st-container {
   -webkit-perspective: 1500px;
           perspective: 1500px;
@@ -26035,7 +25892,7 @@ html.st-layout .st-content {
 .st-effect-8.sidebar::after {
   display: none;
 }
-/* Effect 9: Scale down pusher */
+
 .st-effect-9.st-container {
   -webkit-perspective: 1500px;
           perspective: 1500px;
@@ -26069,7 +25926,7 @@ html.st-layout .st-content {
 .st-effect-9.sidebar::after {
   display: none;
 }
-/* Effect 10: Scale up */
+
 .st-effect-10.st-container {
   -webkit-perspective: 1500px;
           perspective: 1500px;
@@ -26113,7 +25970,7 @@ html.st-layout .st-content {
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
 }
-/* Effect 11: Scale and rotate pusher */
+
 .st-effect-11.st-container {
   -webkit-perspective: 1500px;
           perspective: 1500px;
@@ -26151,7 +26008,7 @@ html.st-layout .st-content {
 .st-effect-11.sidebar::after {
   display: none;
 }
-/* Effect 12: Open door */
+
 .st-effect-12.st-container {
   -webkit-perspective: 1500px;
           perspective: 1500px;
@@ -26199,7 +26056,7 @@ html.st-layout .st-content {
 .st-effect-12.sidebar::after {
   display: none;
 }
-/* Effect 13: Fall down */
+
 .st-effect-13.st-container {
   -webkit-perspective: 1500px;
           perspective: 1500px;
@@ -26239,7 +26096,7 @@ html.st-layout .st-content {
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
 }
-/* Effect 14: Delayed 3D rotate */
+
 .st-effect-14.st-container {
   -webkit-perspective: 1500px;
           perspective: 1500px;
@@ -26298,7 +26155,7 @@ html.st-layout .st-content {
   -webkit-transform: translate3d(-100%, 0, 0) rotateY(0deg);
           transform: translate3d(-100%, 0, 0) rotateY(0deg);
 }
-/* Fallback example for browsers that don't support 3D transforms (and no JS fallback) */
+
 .st-effect-l2 .no-csstransforms3d .st-pusher,
 .st-effect-l2 .no-js .st-pusher {
   padding-left: 200px;
@@ -26332,7 +26189,7 @@ html.st-layout .st-content {
 }
 .sidebar .emails .sidebar-block .media .text-h5 {
   margin: 5px 0 0;
-  color: #26a69a;
+  color: #7f0500;
 }
 .sidebar .emails .sidebar-block .email-subject {
   display: block;
@@ -26395,7 +26252,7 @@ html.st-layout .st-content {
   overflow: scroll;
 }
 .sidebar .datepicker table thead tr {
-  background: #26a69a !important;
+  background: #7f0500 !important;
 }
 .sidebar .datepicker table thead tr th {
   color: #fff;
@@ -26405,7 +26262,7 @@ html.st-layout .st-content {
 .sidebar .datepicker table thead tr th.next:hover,
 .sidebar .datepicker table thead tr th.prev:hover {
   color: #fff;
-  background: #7f0500;
+  background: #1c7d74;
 }
 .sidebar .datepicker table tr td.day,
 .sidebar .datepicker table tr td .month,
@@ -26455,7 +26312,7 @@ html.st-layout .st-content {
   margin-bottom: 0;
 }
 .sidebar .slider .slider-handle {
-  color: #26a69a;
+  color: #7f0500;
 }
 .sidebar .slider .tooltip-inner {
   font-weight: bold;
@@ -26586,7 +26443,7 @@ html.st-layout .st-content {
   color: #ffffff;
 }
 .sidebar.sidebar-skin-dark .sidebar-brand {
-  background-color: #26a69a;
+  background-color: #7f0500;
   color: #ffffff;
 }
 .sidebar.sidebar-skin-dark .sidebar-brand:hover {
@@ -26613,8 +26470,8 @@ html.st-layout .st-content {
 }
 .sidebar.sidebar-skin-dark .btn-default {
   color: #ffffff;
-  background-color: #26a69a;
-  border-color: #26a69a;
+  background-color: #7f0500;
+  border-color: #7f0500;
 }
 .sidebar.sidebar-skin-dark .btn-default:hover,
 .sidebar.sidebar-skin-dark .btn-default:focus,
@@ -26623,7 +26480,7 @@ html.st-layout .st-content {
 .sidebar.sidebar-skin-dark .btn-default.active,
 .open > .dropdown-toggle.sidebar.sidebar-skin-dark .btn-default {
   color: #ffffff;
-  background-color: #7f0500;
+  background-color: #1c7d74;
   border-color: #1b746c;
 }
 .sidebar.sidebar-skin-dark .btn-default:active,
@@ -26649,11 +26506,11 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default:active,
 .sidebar.sidebar-skin-dark .btn-default.disabled.active,
 .sidebar.sidebar-skin-dark .btn-default[disabled].active,
 fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
-  background-color: #26a69a;
-  border-color: #26a69a;
+  background-color: #7f0500;
+  border-color: #7f0500;
 }
 .sidebar.sidebar-skin-dark .btn-default .badge {
-  color: #26a69a;
+  color: #7f0500;
   background-color: #ffffff;
 }
 .sidebar.sidebar-skin-dark .form-control,
@@ -26677,7 +26534,7 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
   color: #fff;
 }
 .sidebar.sidebar-skin-dark .list-group-menu .list-group-item.active {
-  background: #26a69a;
+  background: #7f0500;
 }
 .sidebar.sidebar-skin-dark .list-group-menu .list-group-item.active a {
   color: #ffffff;
@@ -26686,8 +26543,8 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
   color: #ffffff;
 }
 .sidebar.sidebar-skin-dark .list-group-menu.primary .list-group-item {
-  background: #26a69a;
-  border-color: #26a69a;
+  background: #7f0500;
+  border-color: #7f0500;
 }
 .sidebar.sidebar-skin-dark .list-group-menu.primary .list-group-item a {
   color: #fff;
@@ -26731,7 +26588,7 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
   color: #ffffff;
 }
 .sidebar.sidebar-skin-dark .sidebar-menu.sm-active-item-bg li.active > a {
-  background: #26a69a;
+  background: #7f0500;
 }
 .sidebar.sidebar-skin-dark .sidebar-menu.sm-active-item-bg li.active > a:before {
   color: #ffffff;
@@ -26741,7 +26598,7 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
   color: #8a8a8a;
 }
 .sidebar.sidebar-skin-dark .sidebar-menu.sm-icons-block li.active > a i {
-  background: #26a69a;
+  background: #7f0500;
   color: #ffffff;
 }
 .sidebar.sidebar-skin-dark .sidebar-menu li.open > ul {
@@ -26759,7 +26616,7 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
   background: #141414;
 }
 .sidebar.sidebar-skin-dark .category {
-  color: #26a69a;
+  color: #7f0500;
 }
 .sidebar.sidebar-skin-dark hr {
   border-color: #2e2e2e;
@@ -26772,7 +26629,7 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
   background: #1f1f1f;
 }
 .sidebar.sidebar-skin-dark .sidebar-feed li:hover .media-object i {
-  color: #26a69a;
+  color: #7f0500;
 }
 .sidebar.sidebar-skin-dark .sidebar-feed li .media-body a {
   color: #ffffff;
@@ -26861,7 +26718,7 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
   color: inherit;
 }
 .sidebar.sidebar-skin-white .sidebar-brand {
-  background-color: #26a69a;
+  background-color: #7f0500;
   color: #ffffff;
 }
 .sidebar.sidebar-skin-white .sidebar-brand:hover {
@@ -26907,15 +26764,15 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
   color: #2c2c2c;
 }
 .sidebar.sidebar-skin-white .list-group-menu .list-group-item.active {
-  background: #26a69a;
+  background: #7f0500;
 }
 .sidebar.sidebar-skin-white .list-group-menu .list-group-item.active a,
 .sidebar.sidebar-skin-white .list-group-menu .list-group-item.active .badge {
   color: #ffffff;
 }
 .sidebar.sidebar-skin-white .list-group-menu.primary .list-group-item {
-  background: #26a69a;
-  border-color: #26a69a;
+  background: #7f0500;
+  border-color: #7f0500;
 }
 .sidebar.sidebar-skin-white .list-group-menu.primary .list-group-item a {
   color: #fff;
@@ -26975,7 +26832,7 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
   color: #303030;
 }
 .sidebar.sidebar-skin-white .sidebar-menu.sm-active-item-bg li.active > a {
-  background: #26a69a;
+  background: #7f0500;
   color: #ffffff;
 }
 .sidebar.sidebar-skin-white .sidebar-menu.sm-active-item-bg li.active > a i {
@@ -26986,7 +26843,7 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
   color: #bdbdbd;
 }
 .sidebar.sidebar-skin-white .sidebar-menu.sm-icons-block li.active > a i {
-  background: #26a69a;
+  background: #7f0500;
   color: #ffffff;
 }
 .sidebar.sidebar-skin-white .sidebar-menu li.open > ul {
@@ -27004,7 +26861,7 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
   background: #f2f2f2;
 }
 .sidebar.sidebar-skin-white .category {
-  color: #26a69a;
+  color: #7f0500;
 }
 .sidebar.sidebar-skin-white hr {
   border-color: #ebebeb;
@@ -27021,7 +26878,7 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
   background: #f2f2f2;
 }
 .sidebar.sidebar-skin-white .sidebar-feed li:hover .media-left i {
-  color: #26a69a;
+  color: #7f0500;
 }
 .sidebar.sidebar-skin-white .sidebar-feed li .media-body a {
   color: #212121;
@@ -27047,12 +26904,12 @@ fieldset[disabled] .sidebar.sidebar-skin-dark .btn-default.active {
   background: #f5f5f5;
 }
 .sidebar.sidebar-skin-white .datepicker table thead tr {
-  background: #26a69a !important;
+  background: #7f0500 !important;
 }
 .sidebar.sidebar-skin-white .datepicker table thead tr th.datepicker-switch:hover,
 .sidebar.sidebar-skin-white .datepicker table thead tr th.next:hover,
 .sidebar.sidebar-skin-white .datepicker table thead tr th.prev:hover {
-  background: #7f0500;
+  background: #1c7d74;
 }
 .sidebar.sidebar-skin-white .datepicker table tr td.day,
 .sidebar.sidebar-skin-white .datepicker table tr td .month,
@@ -29694,13 +29551,13 @@ fieldset[disabled] .sidebar.sidebar-skin-white-brown .btn-default.active {
 .jvectormap-zoomin,
 .jvectormap-zoomout {
   box-sizing: content-box;
-  background: #26a69a;
+  background: #7f0500;
 }
 .jvectormap-label {
   z-index: 1;
   border: 1px solid #fff;
   border-radius: 5px;
-  background: #26a69a;
+  background: #7f0500;
   padding: 3px 5px;
 }
 .jvm-legend-item {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="st-layout ls-top-navbar ls-bottom-footer show-sidebar sidebar-l2" lang="en">
+<html class="st-layout ls-top-navbar ls-bottom-footer show-sidebar sidebar-l2" lang="pt-br">
 
 <head>
   <meta charset="utf-8">
@@ -21,6 +21,7 @@
   <!-- APP CSS XFind-->
 
   <link href="css/app/app.css" rel="stylesheet">
+
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
 WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -511,7 +512,7 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
                 <ul class="nav navbar-nav ">
                   <li><a href="index.html"><i class="fa fa-fw icon-ship-wheel"></i> Timeline</a></li>
                   <li><a href="user-public-profile.html"><i class="fa fa-fw icon-user-1"></i> About</a></li>
-                  <li class="active"><a href="user-public-users.html"><i class="fa fa-fw fa-users"></i> Friends</a></li>
+                  <li><a href="user-public-users.html"><i class="fa fa-fw fa-users"></i> Friends</a></li>
                 </ul>
                 <ul class="nav navbar-nav hidden-xs navbar-right ">
                   <li><a href="#" data-toggle="chat-box">Chat <i class="fa fa-fw fa-comment-o"></i></a></li>
@@ -530,313 +531,11 @@ WARNING: Respond.js doesn't work if you view the page via file:// -->
               </div>
             </div>
           </div>
+          <!--Start Stalks-->
 
-          <div class="container-fluid">
 
-            <div id="filter">
-              <form class="form-inline">
-                <label>Filter:</label>
-                <select name="users-filter" id="users-filter-select" class="selectpicker" data-style="btn-primary" data-width="auto">
-                  <option value="all">All</option>
-                  <option value="friends">Friends of Friends</option>
-                  <option value="name">by Name</option>
-                </select>
-                <div id="users-filter-trigger">
-                  <div class="select-friends hidden">
-                    <select name="users-filter-friends" class="selectpicker" data-style="btn-primary" data-live-search="true">
-                      <option value="0">Select Friend</option>
-                      <option value="1">Mary D.</option>
-                      <option value="2">Michelle S.</option>
-                      <option value="3">Adrian Demian</option>
-                    </select>
-                  </div>
-                  <div class="search-name hidden">
-                    <input type="text" class="form-control" name="user-first" placeholder="First Last Name" id="name" />
-                    <a href="#" class="btn btn-default hidden" id="user-search-name"><i class="fa fa-search"></i> Search</a>
-                  </div>
 
-                </div>
-              </form>
-            </div>
-
-            <div class="row" data-toggle="isotope">
-              <div class="col-md-6 col-lg-4 item">
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <div class="media">
-                      <div class="pull-left">
-                        <img src="images/people/50/guy-6.jpg" alt="people" class="media-object img-circle" />
-                      </div>
-                      <div class="media-body">
-                        <h4 class="media-heading margin-v-5"><a href="#">Adrian D.</a></h4>
-                        <div class="profile-icons">
-                          <span><i class="fa fa-users"></i> 372</span>
-                          <span><i class="fa fa-photo"></i> 43</span>
-                          <span><i class="fa fa-video-camera"></i> 3</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="panel-body">
-                    <p class="common-friends">Common Friends</p>
-                    <div class="user-friend-list">
-                      <a href="#">
-                        <img src="images/people/50/guy-1.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/guy-5.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/woman-4.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/woman-5.jpg" alt="people" class="img-circle" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="panel-footer">
-                    <a href="#" class="btn btn-default btn-sm">Follow <i class="fa fa-share"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4 item">
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <div class="media">
-                      <div class="pull-left">
-                        <img src="images/people/50/guy-9.jpg" alt="people" class="media-object img-circle" />
-                      </div>
-                      <div class="media-body">
-                        <h4 class="media-heading margin-v-5"><a href="#">Adrian D.</a></h4>
-                        <div class="profile-icons">
-                          <span><i class="fa fa-users"></i> 372</span>
-                          <span><i class="fa fa-photo"></i> 43</span>
-                          <span><i class="fa fa-video-camera"></i> 3</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="panel-body">
-                    <p class="common-friends">Common Friends</p>
-                    <div class="user-friend-list">
-                      <a href="#">
-                        <img src="images/people/50/guy-7.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/guy-1.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/woman-3.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/woman-1.jpg" alt="people" class="img-circle" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="panel-footer">
-                    <a href="#" class="btn btn-default btn-sm">Follow <i class="fa fa-share"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4 item">
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <div class="media">
-                      <div class="pull-left">
-                        <img src="images/people/50/guy-3.jpg" alt="people" class="media-object img-circle" />
-                      </div>
-                      <div class="media-body">
-                        <h4 class="media-heading margin-v-5"><a href="#">Adrian D.</a></h4>
-                        <div class="profile-icons">
-                          <span><i class="fa fa-users"></i> 372</span>
-                          <span><i class="fa fa-photo"></i> 43</span>
-                          <span><i class="fa fa-video-camera"></i> 3</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="panel-body">
-                    <p class="common-friends">Common Friends</p>
-                    <div class="user-friend-list">
-                      <a href="#">
-                        <img src="images/people/50/guy-1.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/guy-3.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/woman-9.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/woman-5.jpg" alt="people" class="img-circle" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="panel-footer">
-                    <a href="#" class="btn btn-default btn-sm">Follow <i class="fa fa-share"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4 item">
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <div class="media">
-                      <div class="pull-left">
-                        <img src="images/people/50/guy-7.jpg" alt="people" class="media-object img-circle" />
-                      </div>
-                      <div class="media-body">
-                        <h4 class="media-heading margin-v-5"><a href="#">Adrian D.</a></h4>
-                        <div class="profile-icons">
-                          <span><i class="fa fa-users"></i> 372</span>
-                          <span><i class="fa fa-photo"></i> 43</span>
-                          <span><i class="fa fa-video-camera"></i> 3</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="panel-body">
-                    <p class="common-friends">Common Friends</p>
-                    <div class="user-friend-list">
-                      <a href="#">
-                        <img src="images/people/50/guy-8.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/guy-5.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/woman-1.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/woman-1.jpg" alt="people" class="img-circle" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="panel-footer">
-                    <a href="#" class="btn btn-default btn-sm">Follow <i class="fa fa-share"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4 item">
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <div class="media">
-                      <div class="pull-left">
-                        <img src="images/people/50/guy-3.jpg" alt="people" class="media-object img-circle" />
-                      </div>
-                      <div class="media-body">
-                        <h4 class="media-heading margin-v-5"><a href="#">Adrian D.</a></h4>
-                        <div class="profile-icons">
-                          <span><i class="fa fa-users"></i> 372</span>
-                          <span><i class="fa fa-photo"></i> 43</span>
-                          <span><i class="fa fa-video-camera"></i> 3</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="panel-body">
-                    <p class="common-friends">Common Friends</p>
-                    <div class="user-friend-list">
-                      <a href="#">
-                        <img src="images/people/50/guy-1.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/guy-7.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/woman-3.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/woman-6.jpg" alt="people" class="img-circle" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="panel-footer">
-                    <a href="#" class="btn btn-default btn-sm">Follow <i class="fa fa-share"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4 item">
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <div class="media">
-                      <div class="pull-left">
-                        <img src="images/people/50/guy-1.jpg" alt="people" class="media-object img-circle" />
-                      </div>
-                      <div class="media-body">
-                        <h4 class="media-heading margin-v-5"><a href="#">Adrian D.</a></h4>
-                        <div class="profile-icons">
-                          <span><i class="fa fa-users"></i> 372</span>
-                          <span><i class="fa fa-photo"></i> 43</span>
-                          <span><i class="fa fa-video-camera"></i> 3</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="panel-body">
-                    <p class="common-friends">Common Friends</p>
-                    <div class="user-friend-list">
-                      <a href="#">
-                        <img src="images/people/50/guy-3.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/guy-3.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/woman-4.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/woman-7.jpg" alt="people" class="img-circle" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="panel-footer">
-                    <a href="#" class="btn btn-default btn-sm">Follow <i class="fa fa-share"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4 item">
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <div class="media">
-                      <div class="pull-left">
-                        <img src="images/people/50/guy-9.jpg" alt="people" class="media-object img-circle" />
-                      </div>
-                      <div class="media-body">
-                        <h4 class="media-heading margin-v-5"><a href="#">Adrian D.</a></h4>
-                        <div class="profile-icons">
-                          <span><i class="fa fa-users"></i> 372</span>
-                          <span><i class="fa fa-photo"></i> 43</span>
-                          <span><i class="fa fa-video-camera"></i> 3</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="panel-body">
-                    <p class="common-friends">Common Friends</p>
-                    <div class="user-friend-list">
-                      <a href="#">
-                        <img src="images/people/50/guy-2.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/guy-1.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/woman-8.jpg" alt="people" class="img-circle" />
-                      </a>
-                      <a href="#">
-                        <img src="images/people/50/woman-8.jpg" alt="people" class="img-circle" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="panel-footer">
-                    <a href="#" class="btn btn-default btn-sm">Follow <i class="fa fa-share"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
+        </div>
         </div>
         <!-- /st-content-inner -->
 

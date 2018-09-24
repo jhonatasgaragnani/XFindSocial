@@ -1,4 +1,6 @@
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/*Social Media by XFind*/
+/*Boostrap 4.0.7 version*/
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -176,7 +178,7 @@ td,
 th {
   padding: 0;
 }
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+
 @media print {
   *,
   *:before,
@@ -1323,7 +1325,7 @@ mark,
   color: #26a69a;
 }
 a.text-primary:hover {
-  color: #7f0500;
+  color: #1c7d74;
 }
 .text-success {
   color: #8bbf61;
@@ -1354,7 +1356,7 @@ a.text-danger:hover {
   background-color: #26a69a;
 }
 a.bg-primary:hover {
-  background-color: #7f0500;
+  background-color: #1c7d74;
 }
 .bg-success {
   background-color: #7eb84f;
@@ -3060,7 +3062,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #7f0500;
+  background-color: #1c7d74;
   border-color: #1b746c;
 }
 .btn-primary:active,
@@ -4728,7 +4730,7 @@ a.label:focus {
 }
 .label-primary[href]:hover,
 .label-primary[href]:focus {
-  background-color: #7f0500;
+  background-color: #1c7d74;
 }
 .label-success {
   background-color: #8bbf61;
